@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DMSans-Regular.ttf">
+            <string>DMSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CubeDetailsCollectionViewCell" id="gTV-IL-0wX" customClass="CubeDetailsCollectionViewCell" customModule="TripSava" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="459" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Golf Shoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7S-Bg-C7x">
+                        <rect key="frame" x="20" y="11.999999999999998" width="70" height="18.333333333333329"/>
+                        <fontDescription key="fontDescription" name="DMSans-Regular" family="DM Sans" pointSize="14"/>
+                        <color key="textColor" red="0.27843137254901962" green="0.28235294117647058" blue="0.27843137254901962" alpha="0.90218431122448983" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lju-4k-Oxb">
+                        <rect key="frame" x="417" y="6.3333333333333321" width="30" height="29.999999999999996"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="Wwe-CW-UZv"/>
+                            <constraint firstAttribute="height" constant="30" id="wM6-xC-hH3"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="CancelBtn" title=""/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuH-Qs-gz3">
+                        <rect key="frame" x="20" y="58" width="419" height="1"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="IUd-fI-Jrs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="lju-4k-Oxb" firstAttribute="centerY" secondItem="N7S-Bg-C7x" secondAttribute="centerY" id="Ic0-iq-Yv8"/>
+                <constraint firstItem="OuH-Qs-gz3" firstAttribute="leading" secondItem="N7S-Bg-C7x" secondAttribute="leading" id="K2j-fg-W0q"/>
+                <constraint firstItem="N7S-Bg-C7x" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="W2h-jW-wEY"/>
+                <constraint firstAttribute="trailing" secondItem="lju-4k-Oxb" secondAttribute="trailing" constant="12" id="aWl-aP-YX8"/>
+                <constraint firstItem="OuH-Qs-gz3" firstAttribute="trailing" secondItem="lju-4k-Oxb" secondAttribute="trailing" constant="-8" id="faS-Rr-n9Z"/>
+                <constraint firstItem="N7S-Bg-C7x" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="nKh-Hy-fP7"/>
+                <constraint firstAttribute="bottom" secondItem="OuH-Qs-gz3" secondAttribute="bottom" constant="1" id="nnF-Vd-abs"/>
+            </constraints>
+            <size key="customSize" width="459" height="60"/>
+            <point key="canvasLocation" x="451.14503816793894" y="23.239436619718312"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="CancelBtn" width="18" height="19"/>
+    </resources>
+</document>

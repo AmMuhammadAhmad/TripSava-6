@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7D8041B6-F647-4E47-802A-15A6EC36A460"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C62C5AB4-44DC-44BC-97C9-6F16A1AAB0D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/OnBoarding/Controllers/OnBoardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "checkDeviceModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C62C5AB4-44DC-44BC-97C9-6F16A1AAB0D7 - 1b4d230c72636bb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.OnBoardingViewController.checkDeviceModel() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Updated%20/Projects/TripSava/TripSava/Trip%20Sava/Modules/OnBoarding/Controllers/OnBoardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "7892">
+               </Location>
+               <Location
+                  uuid = "C62C5AB4-44DC-44BC-97C9-6F16A1AAB0D7 - 1b4d230c72636b59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.OnBoardingViewController.checkDeviceModel() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Updated%20/Projects/TripSava/TripSava/Trip%20Sava/Modules/OnBoarding/Controllers/OnBoardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "7844">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A526D0EA-24E1-4FCE-9D96-35AAA76F1474"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/OnBoarding/Controllers/OnBoardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "checkDeviceModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A526D0EA-24E1-4FCE-9D96-35AAA76F1474 - 1b4d230c7263761c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.OnBoardingViewController.checkDeviceModel() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Updated%20/Projects/TripSava/TripSava/Trip%20Sava/Modules/OnBoarding/Controllers/OnBoardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "A526D0EA-24E1-4FCE-9D96-35AAA76F1474 - 1b4d230c7263761c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.OnBoardingViewController.checkDeviceModel() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Updated%20/Projects/TripSava/TripSava/Trip%20Sava/Modules/OnBoarding/Controllers/OnBoardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

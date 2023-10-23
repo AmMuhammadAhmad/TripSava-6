@@ -7,23 +7,312 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		909322F3FE8449D79A150064 /* Pods_TripSava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCF9BC2E76A4EE0E6624D2C /* Pods_TripSava.framework */; };
+		A7011D672ADC6DBC000734A7 /* BasicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7011D662ADC6DBC000734A7 /* BasicInfoViewController.swift */; };
+		A705B4082A6E92EE00FD687B /* ImportQuickListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705B4062A6E92EE00FD687B /* ImportQuickListTableViewCell.swift */; };
+		A705B4092A6E92EE00FD687B /* ImportQuickListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A705B4072A6E92EE00FD687B /* ImportQuickListTableViewCell.xib */; };
+		A705B40E2A7009CA00FD687B /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A705B40D2A7009CA00FD687B /* Alert.storyboard */; };
+		A705B4102A700DFC00FD687B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705B40F2A700DFC00FD687B /* AlertViewController.swift */; };
+		A705B4122A712F6F00FD687B /* NoInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705B4112A712F6F00FD687B /* NoInternetViewController.swift */; };
+		A705B4142A713AC900FD687B /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705B4132A713AC900FD687B /* ReachabilityManager.swift */; };
+		A705B4182A72835500FD687B /* PrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705B4172A72835500FD687B /* PrintViewController.swift */; };
+		A705B41C2A7283A300FD687B /* PrintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705B41A2A7283A300FD687B /* PrintTableViewCell.swift */; };
+		A705B41D2A7283A300FD687B /* PrintTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A705B41B2A7283A300FD687B /* PrintTableViewCell.xib */; };
+		A711E3142A30B673003AD0BC /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A711E3132A30B673003AD0BC /* Tabbar.storyboard */; };
+		A711E3172A30B99D003AD0BC /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A711E3162A30B99D003AD0BC /* TabBarVC.swift */; };
+		A711E31E2A30BA10003AD0BC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A711E31D2A30BA10003AD0BC /* Profile.storyboard */; };
+		A7198C362A37050600D433B7 /* WizardStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7198C352A37050600D433B7 /* WizardStep1ViewController.swift */; };
+		A71EAED12A8246FE002EAEB6 /* AddNewTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71EAED02A8246FE002EAEB6 /* AddNewTripViewController.swift */; };
+		A72ED9FC2A2F2F4100534124 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72ED9FA2A2F2F4100534124 /* OnBoardingCollectionViewCell.swift */; };
+		A72ED9FD2A2F2F4100534124 /* OnBoardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72ED9FB2A2F2F4100534124 /* OnBoardingCollectionViewCell.xib */; };
+		A72ED9FF2A2F32D200534124 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72ED9FE2A2F32D200534124 /* OnBoardingViewController.swift */; };
+		A72EDA012A2F408600534124 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EDA002A2F408600534124 /* Models.swift */; };
+		A73724842A31BCA900EF1B34 /* ShareFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73724832A31BCA900EF1B34 /* ShareFeedbackViewController.swift */; };
+		A73724872A31C05400EF1B34 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73724862A31C05400EF1B34 /* SafariViewController.swift */; };
+		A737248D2A31E15300EF1B34 /* Trip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737248C2A31E15300EF1B34 /* Trip.storyboard */; };
+		A73724912A31ED9700EF1B34 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737248F2A31ED9700EF1B34 /* TripTableViewCell.swift */; };
+		A73724922A31ED9700EF1B34 /* TripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73724902A31ED9700EF1B34 /* TripTableViewCell.xib */; };
+		A740AC932A653D39004A1AE1 /* GifFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740AC922A653D39004A1AE1 /* GifFile.swift */; };
+		A740ACBF2A6547C8004A1AE1 /* Anim.gif in Resources */ = {isa = PBXBuildFile; fileRef = A740ACBE2A6547C8004A1AE1 /* Anim.gif */; };
+		A740ACC42A66C273004A1AE1 /* OnBoardingAnim.json in Resources */ = {isa = PBXBuildFile; fileRef = A740ACC32A66C272004A1AE1 /* OnBoardingAnim.json */; };
+		A74307582A840D3800B65DF9 /* MainCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74307562A840D3800B65DF9 /* MainCategoryCollectionViewCell.swift */; };
+		A74307592A840D3800B65DF9 /* MainCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74307572A840D3800B65DF9 /* MainCategoryCollectionViewCell.xib */; };
+		A743075B2A841E1F00B65DF9 /* ViewAllCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743075A2A841E1F00B65DF9 /* ViewAllCategoriesViewController.swift */; };
+		A74307642A85005600B65DF9 /* SubCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74307622A85005600B65DF9 /* SubCategoryCollectionViewCell.swift */; };
+		A74307652A85005600B65DF9 /* SubCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74307632A85005600B65DF9 /* SubCategoryCollectionViewCell.xib */; };
+		A74307692A882A6800B65DF9 /* ReadMoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74307682A882A6800B65DF9 /* ReadMoreLabel.swift */; };
+		A743076E2A91291400B65DF9 /* CustomAddNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743076D2A91291400B65DF9 /* CustomAddNewItem.swift */; };
 		A74B2ABC2A2DEDE500EEA976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B2ABB2A2DEDE500EEA976 /* AppDelegate.swift */; };
 		A74B2ABE2A2DEDE500EEA976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B2ABD2A2DEDE500EEA976 /* SceneDelegate.swift */; };
-		A74B2AC02A2DEDE500EEA976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B2ABF2A2DEDE500EEA976 /* ViewController.swift */; };
-		A74B2AC32A2DEDE500EEA976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74B2AC12A2DEDE500EEA976 /* Main.storyboard */; };
 		A74B2AC52A2DEDE600EEA976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74B2AC42A2DEDE600EEA976 /* Assets.xcassets */; };
 		A74B2AC82A2DEDE600EEA976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74B2AC62A2DEDE600EEA976 /* LaunchScreen.storyboard */; };
+		A74B2ADC2A2DEFB300EEA976 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B2ADB2A2DEFB300EEA976 /* Constants.swift */; };
+		A74B2ADE2A2DEFBD00EEA976 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B2ADD2A2DEFBD00EEA976 /* Extension.swift */; };
+		A74B2AED2A2DF8A500EEA976 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74B2AEC2A2DF8A500EEA976 /* Auth.storyboard */; };
+		A74E1D662A3E304A003BE83A /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E1D652A3E304A003BE83A /* InboxViewController.swift */; };
+		A74E1D682A3E3063003BE83A /* Inbox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74E1D672A3E3063003BE83A /* Inbox.storyboard */; };
+		A74E1D6C2A3E372D003BE83A /* InboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E1D6A2A3E372D003BE83A /* InboxTableViewCell.swift */; };
+		A74E1D6D2A3E372D003BE83A /* InboxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74E1D6B2A3E372D003BE83A /* InboxTableViewCell.xib */; };
+		A74E1D702A3E43EA003BE83A /* CubeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E1D6F2A3E43EA003BE83A /* CubeDetailsViewController.swift */; };
+		A74E1D742A3E446D003BE83A /* CubeDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E1D722A3E446D003BE83A /* CubeDetailsCollectionViewCell.swift */; };
+		A74E1D752A3E446D003BE83A /* CubeDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74E1D732A3E446D003BE83A /* CubeDetailsCollectionViewCell.xib */; };
+		A74E1D792A3E472C003BE83A /* CubeHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E1D772A3E472C003BE83A /* CubeHeaderCollectionReusableView.swift */; };
+		A74E1D7A2A3E472C003BE83A /* CubeHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74E1D782A3E472C003BE83A /* CubeHeaderCollectionReusableView.xib */; };
+		A74E1D7E2A3F0C81003BE83A /* CubeAddTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E1D7C2A3F0C81003BE83A /* CubeAddTaskTableViewCell.swift */; };
+		A74E1D7F2A3F0C81003BE83A /* CubeAddTaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74E1D7D2A3F0C81003BE83A /* CubeAddTaskTableViewCell.xib */; };
+		A74E1D812A3F0E05003BE83A /* AddCubeTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E1D802A3F0E05003BE83A /* AddCubeTasksViewController.swift */; };
+		A769074E2ACD83980091BBBE /* PackingPreprationCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A769074C2ACD83980091BBBE /* PackingPreprationCategoryCell.swift */; };
+		A769074F2ACD83980091BBBE /* PackingPreprationCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A769074D2ACD83980091BBBE /* PackingPreprationCategoryCell.xib */; };
+		A7700D762A37A83500E42DE9 /* TripCurrentWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7700D752A37A83500E42DE9 /* TripCurrentWeatherViewController.swift */; };
+		A7700D7B2A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7700D792A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.swift */; };
+		A7700D7C2A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7700D7A2A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.xib */; };
+		A7735ED92A782E2F00127025 /* MessageAndMail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7735ED82A782E2F00127025 /* MessageAndMail.swift */; };
+		A7735EDB2A791C3000127025 /* EmbassiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7735EDA2A791C3000127025 /* EmbassiesViewController.swift */; };
+		A7735EDF2A79275500127025 /* EmbassiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7735EDD2A79275500127025 /* EmbassiesTableViewCell.swift */; };
+		A7735EE02A79275500127025 /* EmbassiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7735EDE2A79275500127025 /* EmbassiesTableViewCell.xib */; };
+		A7735EE32A79374E00127025 /* EmbassiesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7735EE22A79374E00127025 /* EmbassiesHeaderView.swift */; };
+		A7735EE62A7BAFA100127025 /* EmbassiesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7735EE52A7BAFA100127025 /* EmbassiesDetailsViewController.swift */; };
+		A7735EE92A7BCC4300127025 /* EmbassiesDetailsCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7735EE82A7BCC4300127025 /* EmbassiesDetailsCustomView.swift */; };
+		A7735F292A7E583B00127025 /* CheckListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7735F272A7E583B00127025 /* CheckListCollectionViewCell.swift */; };
+		A7735F2A2A7E583B00127025 /* CheckListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7735F282A7E583B00127025 /* CheckListCollectionViewCell.xib */; };
+		A7735F2E2A7E659F00127025 /* PackingList.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A7735F2D2A7E659F00127025 /* PackingList.pdf */; };
+		A7735F332A7E76DC00127025 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7735F322A7E76DC00127025 /* WebViewViewController.swift */; };
+		A77CD4802A3C300900472416 /* TripSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77CD47E2A3C300900472416 /* TripSearchTableViewCell.swift */; };
+		A77CD4812A3C300900472416 /* TripSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77CD47F2A3C300900472416 /* TripSearchTableViewCell.xib */; };
+		A782BC012A3C468D00135404 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A782BC002A3C468D00135404 /* LibraryViewController.swift */; };
+		A782BC052A3C46BF00135404 /* LibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A782BC032A3C46BF00135404 /* LibraryCollectionViewCell.swift */; };
+		A782BC062A3C46BF00135404 /* LibraryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A782BC042A3C46BF00135404 /* LibraryCollectionViewCell.xib */; };
+		A782BC0C2A3C494100135404 /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A782BC0B2A3C494100135404 /* Library.storyboard */; };
+		A78342922A405C47004012CF /* FavoriteProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783427C2A405C47004012CF /* FavoriteProductCollectionViewCell.swift */; };
+		A78342932A405C47004012CF /* FavoriteProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A783427D2A405C47004012CF /* FavoriteProductCollectionViewCell.xib */; };
+		A78342982A405C47004012CF /* ShopingListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A78342862A405C47004012CF /* ShopingListTableViewCell.xib */; };
+		A78342992A405C47004012CF /* ShopingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342872A405C47004012CF /* ShopingListTableViewCell.swift */; };
+		A783429B2A405C47004012CF /* ProductsCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783428B2A405C47004012CF /* ProductsCategoriesViewController.swift */; };
+		A783429C2A405C47004012CF /* ShopingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783428C2A405C47004012CF /* ShopingListViewController.swift */; };
+		A783429D2A405C47004012CF /* SearchProductsResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783428D2A405C47004012CF /* SearchProductsResultsViewController.swift */; };
+		A783429E2A405C47004012CF /* FeaturedProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783428E2A405C47004012CF /* FeaturedProductsViewController.swift */; };
+		A783429F2A405C47004012CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783428F2A405C47004012CF /* HomeViewController.swift */; };
+		A78342A02A405C47004012CF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78342912A405C47004012CF /* Home.storyboard */; };
+		A78342A22A40630D004012CF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342A12A40630D004012CF /* ProfileViewController.swift */; };
+		A78342A42A4063CD004012CF /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342A32A4063CD004012CF /* EditProfileViewController.swift */; };
+		A78342A62A40640A004012CF /* EditNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342A52A40640A004012CF /* EditNotificationViewController.swift */; };
+		A78342A82A406543004012CF /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342A72A406543004012CF /* ChangeEmailViewController.swift */; };
+		A78342AA2A40CCE8004012CF /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342A92A40CCE8004012CF /* ProductDetailsViewController.swift */; };
+		A78342AD2A40D3A6004012CF /* CreateTripQuickListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342AC2A40D3A6004012CF /* CreateTripQuickListViewController.swift */; };
+		A78342B02A40D604004012CF /* QuickListDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342AF2A40D604004012CF /* QuickListDetailsViewController.swift */; };
+		A78342B22A40D8AA004012CF /* WizardStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342B12A40D8AA004012CF /* WizardStep2ViewController.swift */; };
+		A78342B52A40D94B004012CF /* WizardStep3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342B42A40D94B004012CF /* WizardStep3ViewController.swift */; };
+		A78342B82A40DBC4004012CF /* ScamViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78342B72A40DBC4004012CF /* ScamViewViewController.swift */; };
+		A78507322A40316500381E6A /* PackingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78507272A40316500381E6A /* PackingListVC.swift */; };
+		A78507362A40316500381E6A /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A785072E2A40316500381E6A /* CustomSegmentedControl.swift */; };
+		A78507382A40316500381E6A /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78507302A40316500381E6A /* CheckBox.swift */; };
+		A78BB0B42A3C4ED100024DDD /* InformationalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BB0B22A3C4ED100024DDD /* InformationalCollectionViewCell.swift */; };
+		A78BB0B52A3C4ED100024DDD /* InformationalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A78BB0B32A3C4ED100024DDD /* InformationalCollectionViewCell.xib */; };
+		A79A8C8E2A3C33A80042C87E /* TripSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A8C8D2A3C33A80042C87E /* TripSearchViewController.swift */; };
+		A79F17372AD682A80094751F /* SimpleMsgAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79F17362AD682A80094751F /* SimpleMsgAlertViewController.swift */; };
+		A7BB68E92A320C6000142104 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB68E82A320C6000142104 /* TripViewController.swift */; };
+		A7BB68ED2A332BF500142104 /* TripheaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB68EB2A332BF500142104 /* TripheaderTableViewCell.swift */; };
+		A7BB68EE2A332BF500142104 /* TripheaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BB68EC2A332BF500142104 /* TripheaderTableViewCell.xib */; };
+		A7C072872A39A1EF00C6811A /* TripWeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C072862A39A1EF00C6811A /* TripWeatherDetailsViewController.swift */; };
+		A7D490B92A77D59900F69F15 /* LoginAndAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D490B82A77D59900F69F15 /* LoginAndAccountViewController.swift */; };
+		A7D490BB2A77EC3F00F69F15 /* UpdatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D490BA2A77EC3F00F69F15 /* UpdatePasswordViewController.swift */; };
+		A7D55C2E2A569A14004947B8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D55C2D2A569A14004947B8 /* NetworkManager.swift */; };
+		A7D55C302A569A39004947B8 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D55C2F2A569A39004947B8 /* NetworkServices.swift */; };
+		A7D55C322A56A0CB004947B8 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D55C312A56A0CB004947B8 /* Protocols.swift */; };
+		A7D55C342A56B9C4004947B8 /* NetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D55C332A56B9C4004947B8 /* NetworkModels.swift */; };
+		A7D57AA92A5C04EB004947B8 /* QLPackingCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D57AA82A5C04EB004947B8 /* QLPackingCustomView.swift */; };
+		A7D57AAB2A5EDD25004947B8 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D57AAA2A5EDD25004947B8 /* OTPTextField.swift */; };
+		A7D57AAD2A5FDDF0004947B8 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D57AAC2A5FDDF0004947B8 /* OTPView.swift */; };
+		A7DBD86A2A9E0569005D693E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DBD8692A9E0569005D693E /* MessageViewController.swift */; };
+		A7DBD86C2A9F9E9D005D693E /* DeleteShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DBD86B2A9F9E9D005D693E /* DeleteShoppingListViewController.swift */; };
+		A7DBD86F2AA08C95005D693E /* StackViewCustomDeleteOnScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DBD86E2AA08C95005D693E /* StackViewCustomDeleteOnScroll.swift */; };
+		A7DBD8752AA20A7D005D693E /* EmptyTrip.json in Resources */ = {isa = PBXBuildFile; fileRef = A7DBD8742AA20A7D005D693E /* EmptyTrip.json */; };
+		A7E4D9ED2A49986200DE7B6F /* CustomPackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E4D9EC2A49986200DE7B6F /* CustomPackingView.swift */; };
+		A7E4D9EF2A4998DF00DE7B6F /* CustomPrepationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E4D9EE2A4998DF00DE7B6F /* CustomPrepationView.swift */; };
+		A7E5D3902A38732400EF70B0 /* StartPackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E5D38F2A38732400EF70B0 /* StartPackingViewController.swift */; };
+		A7E5D3942A3873A900EF70B0 /* CreatepackingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E5D3922A3873A900EF70B0 /* CreatepackingCollectionViewCell.swift */; };
+		A7E5D3952A3873A900EF70B0 /* CreatepackingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E5D3932A3873A900EF70B0 /* CreatepackingCollectionViewCell.xib */; };
+		A7E5D3972A38774500EF70B0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E5D3962A38774500EF70B0 /* LoginViewController.swift */; };
+		A7E5D3992A38779000EF70B0 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E5D3982A38779000EF70B0 /* GetStartedViewController.swift */; };
+		A7E5D39B2A3877C900EF70B0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E5D39A2A3877C900EF70B0 /* SignUpViewController.swift */; };
+		A7E5D39D2A3877E600EF70B0 /* SignUpDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E5D39C2A3877E600EF70B0 /* SignUpDetailsViewController.swift */; };
+		A7FEEA1B2AE150B70085C0D7 /* UvCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEEA1A2AE150B70085C0D7 /* UvCustomView.swift */; };
+		F58E308C2AE23F3E009ABB70 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F587C14C2ADFBBB700B74393 /* DMSans-Medium.ttf */; };
+		F58E308D2AE23F3E009ABB70 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F587C14B2ADFBBB700B74393 /* DMSans-MediumItalic.ttf */; };
+		F58E308E2AE23F3E009ABB70 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F587C1482ADFBBB600B74393 /* DMSans-Regular.ttf */; };
+		F58E308F2AE23F3E009ABB70 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F587C1472ADFBBB500B74393 /* DMSans-Bold.ttf */; };
+		F58E30902AE23F3E009ABB70 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F587C14A2ADFBBB600B74393 /* DMSans-BoldItalic.ttf */; };
+		F58E30912AE23F3E009ABB70 /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F587C1492ADFBBB600B74393 /* DMSans-Italic.ttf */; };
+		F58E30942AE26080009ABB70 /* SmartlookAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F58E30932AE26080009ABB70 /* SmartlookAnalytics */; };
+		F5EA9F3C2ADC7E62009A7675 /* House Sitter Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F3B2ADC7E62009A7675 /* House Sitter Checklist.pdf */; };
+		F5EA9F3E2ADC7E6D009A7675 /* Motorcycle Pre-Ride Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F3D2ADC7E6D009A7675 /* Motorcycle Pre-Ride Checklist.pdf */; };
+		F5EA9F402ADC7E74009A7675 /* Packing List Checklist Template.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F3F2ADC7E74009A7675 /* Packing List Checklist Template.pdf */; };
+		F5EA9F422ADC7E7B009A7675 /* Pet Sitter Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F412ADC7E7B009A7675 /* Pet Sitter Checklist.pdf */; };
+		F5EA9F442ADC7E83009A7675 /* Road Trip Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F432ADC7E83009A7675 /* Road Trip Checklist.pdf */; };
+		F5EA9F462ADC7E8B009A7675 /* RV Readiness Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F452ADC7E8A009A7675 /* RV Readiness Checklist.pdf */; };
+		F5EA9F482ADC7EC1009A7675 /* Accommodation Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F472ADC7EC1009A7675 /* Accommodation Checklist.pdf */; };
+		F5EA9F4A2ADC7EC9009A7675 /* Bicycle Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F492ADC7EC9009A7675 /* Bicycle Checklist.pdf */; };
+		F5EA9F4C2ADC7ED6009A7675 /* Boat Rental Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F4B2ADC7ED6009A7675 /* Boat Rental Checklist.pdf */; };
+		F5EA9F4E2ADC7EDE009A7675 /* Camping Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F4D2ADC7EDE009A7675 /* Camping Checklist.pdf */; };
+		F5EA9F502ADC7EE9009A7675 /* Car Rental Checklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EA9F4F2ADC7EE9009A7675 /* Car Rental Checklist.pdf */; };
+		F5EA9F522ADC8290009A7675 /* BasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA9F512ADC8290009A7675 /* BasicInfo.swift */; };
+		F5EA9F672ADD130E009A7675 /* PowerAdapterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA9F662ADD130E009A7675 /* PowerAdapterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4690C771EE00EF3FDEDCC2EC /* Pods-TripSava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSava.debug.xcconfig"; path = "Target Support Files/Pods-TripSava/Pods-TripSava.debug.xcconfig"; sourceTree = "<group>"; };
+		A7011D662ADC6DBC000734A7 /* BasicInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfoViewController.swift; sourceTree = "<group>"; };
+		A705B4062A6E92EE00FD687B /* ImportQuickListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportQuickListTableViewCell.swift; sourceTree = "<group>"; };
+		A705B4072A6E92EE00FD687B /* ImportQuickListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImportQuickListTableViewCell.xib; sourceTree = "<group>"; };
+		A705B40D2A7009CA00FD687B /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
+		A705B40F2A700DFC00FD687B /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		A705B4112A712F6F00FD687B /* NoInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetViewController.swift; sourceTree = "<group>"; };
+		A705B4132A713AC900FD687B /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		A705B4172A72835500FD687B /* PrintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintViewController.swift; sourceTree = "<group>"; };
+		A705B41A2A7283A300FD687B /* PrintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTableViewCell.swift; sourceTree = "<group>"; };
+		A705B41B2A7283A300FD687B /* PrintTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrintTableViewCell.xib; sourceTree = "<group>"; };
+		A711E3132A30B673003AD0BC /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		A711E3162A30B99D003AD0BC /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		A711E31D2A30BA10003AD0BC /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		A7198C352A37050600D433B7 /* WizardStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStep1ViewController.swift; sourceTree = "<group>"; };
+		A71EAED02A8246FE002EAEB6 /* AddNewTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTripViewController.swift; sourceTree = "<group>"; };
+		A72ED9FA2A2F2F4100534124 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		A72ED9FB2A2F2F4100534124 /* OnBoardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingCollectionViewCell.xib; sourceTree = "<group>"; };
+		A72ED9FE2A2F32D200534124 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		A72EDA002A2F408600534124 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A73724832A31BCA900EF1B34 /* ShareFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFeedbackViewController.swift; sourceTree = "<group>"; };
+		A73724862A31C05400EF1B34 /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
+		A737248C2A31E15300EF1B34 /* Trip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trip.storyboard; sourceTree = "<group>"; };
+		A737248F2A31ED9700EF1B34 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		A73724902A31ED9700EF1B34 /* TripTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripTableViewCell.xib; sourceTree = "<group>"; };
+		A740AC922A653D39004A1AE1 /* GifFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifFile.swift; sourceTree = "<group>"; };
+		A740ACBE2A6547C8004A1AE1 /* Anim.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Anim.gif; sourceTree = "<group>"; };
+		A740ACC32A66C272004A1AE1 /* OnBoardingAnim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OnBoardingAnim.json; sourceTree = "<group>"; };
+		A74307562A840D3800B65DF9 /* MainCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A74307572A840D3800B65DF9 /* MainCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		A743075A2A841E1F00B65DF9 /* ViewAllCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllCategoriesViewController.swift; sourceTree = "<group>"; };
+		A74307622A85005600B65DF9 /* SubCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A74307632A85005600B65DF9 /* SubCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		A74307682A882A6800B65DF9 /* ReadMoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMoreLabel.swift; sourceTree = "<group>"; };
+		A743076D2A91291400B65DF9 /* CustomAddNewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddNewItem.swift; sourceTree = "<group>"; };
 		A74B2AB82A2DEDE500EEA976 /* TripSava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripSava.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74B2ABB2A2DEDE500EEA976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A74B2ABD2A2DEDE500EEA976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A74B2ABF2A2DEDE500EEA976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A74B2AC22A2DEDE500EEA976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A74B2AC42A2DEDE600EEA976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74B2AC72A2DEDE600EEA976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74B2AC92A2DEDE600EEA976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74B2ADB2A2DEFB300EEA976 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A74B2ADD2A2DEFBD00EEA976 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A74B2AEC2A2DF8A500EEA976 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		A74E1D652A3E304A003BE83A /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		A74E1D672A3E3063003BE83A /* Inbox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inbox.storyboard; sourceTree = "<group>"; };
+		A74E1D6A2A3E372D003BE83A /* InboxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewCell.swift; sourceTree = "<group>"; };
+		A74E1D6B2A3E372D003BE83A /* InboxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InboxTableViewCell.xib; sourceTree = "<group>"; };
+		A74E1D6F2A3E43EA003BE83A /* CubeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeDetailsViewController.swift; sourceTree = "<group>"; };
+		A74E1D722A3E446D003BE83A /* CubeDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A74E1D732A3E446D003BE83A /* CubeDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CubeDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
+		A74E1D772A3E472C003BE83A /* CubeHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		A74E1D782A3E472C003BE83A /* CubeHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CubeHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		A74E1D7C2A3F0C81003BE83A /* CubeAddTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeAddTaskTableViewCell.swift; sourceTree = "<group>"; };
+		A74E1D7D2A3F0C81003BE83A /* CubeAddTaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CubeAddTaskTableViewCell.xib; sourceTree = "<group>"; };
+		A74E1D802A3F0E05003BE83A /* AddCubeTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCubeTasksViewController.swift; sourceTree = "<group>"; };
+		A769074C2ACD83980091BBBE /* PackingPreprationCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingPreprationCategoryCell.swift; sourceTree = "<group>"; };
+		A769074D2ACD83980091BBBE /* PackingPreprationCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackingPreprationCategoryCell.xib; sourceTree = "<group>"; };
+		A7700D752A37A83500E42DE9 /* TripCurrentWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCurrentWeatherViewController.swift; sourceTree = "<group>"; };
+		A7700D792A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripCurrentWeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		A7700D7A2A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tripCurrentWeatherCollectionViewCell.xib; sourceTree = "<group>"; };
+		A7735ED82A782E2F00127025 /* MessageAndMail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAndMail.swift; sourceTree = "<group>"; };
+		A7735EDA2A791C3000127025 /* EmbassiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesViewController.swift; sourceTree = "<group>"; };
+		A7735EDD2A79275500127025 /* EmbassiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesTableViewCell.swift; sourceTree = "<group>"; };
+		A7735EDE2A79275500127025 /* EmbassiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbassiesTableViewCell.xib; sourceTree = "<group>"; };
+		A7735EE22A79374E00127025 /* EmbassiesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesHeaderView.swift; sourceTree = "<group>"; };
+		A7735EE52A7BAFA100127025 /* EmbassiesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesDetailsViewController.swift; sourceTree = "<group>"; };
+		A7735EE82A7BCC4300127025 /* EmbassiesDetailsCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesDetailsCustomView.swift; sourceTree = "<group>"; };
+		A7735F272A7E583B00127025 /* CheckListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListCollectionViewCell.swift; sourceTree = "<group>"; };
+		A7735F282A7E583B00127025 /* CheckListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckListCollectionViewCell.xib; sourceTree = "<group>"; };
+		A7735F2D2A7E659F00127025 /* PackingList.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PackingList.pdf; sourceTree = "<group>"; };
+		A7735F322A7E76DC00127025 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		A77CD47E2A3C300900472416 /* TripSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSearchTableViewCell.swift; sourceTree = "<group>"; };
+		A77CD47F2A3C300900472416 /* TripSearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripSearchTableViewCell.xib; sourceTree = "<group>"; };
+		A782BC002A3C468D00135404 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		A782BC032A3C46BF00135404 /* LibraryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A782BC042A3C46BF00135404 /* LibraryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryCollectionViewCell.xib; sourceTree = "<group>"; };
+		A782BC0B2A3C494100135404 /* Library.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
+		A783427C2A405C47004012CF /* FavoriteProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		A783427D2A405C47004012CF /* FavoriteProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		A78342862A405C47004012CF /* ShopingListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopingListTableViewCell.xib; sourceTree = "<group>"; };
+		A78342872A405C47004012CF /* ShopingListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopingListTableViewCell.swift; sourceTree = "<group>"; };
+		A783428B2A405C47004012CF /* ProductsCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCategoriesViewController.swift; sourceTree = "<group>"; };
+		A783428C2A405C47004012CF /* ShopingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopingListViewController.swift; sourceTree = "<group>"; };
+		A783428D2A405C47004012CF /* SearchProductsResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProductsResultsViewController.swift; sourceTree = "<group>"; };
+		A783428E2A405C47004012CF /* FeaturedProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedProductsViewController.swift; sourceTree = "<group>"; };
+		A783428F2A405C47004012CF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A78342912A405C47004012CF /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		A78342A12A40630D004012CF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A78342A32A4063CD004012CF /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		A78342A52A40640A004012CF /* EditNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNotificationViewController.swift; sourceTree = "<group>"; };
+		A78342A72A406543004012CF /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
+		A78342A92A40CCE8004012CF /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		A78342AC2A40D3A6004012CF /* CreateTripQuickListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTripQuickListViewController.swift; sourceTree = "<group>"; };
+		A78342AF2A40D604004012CF /* QuickListDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickListDetailsViewController.swift; sourceTree = "<group>"; };
+		A78342B12A40D8AA004012CF /* WizardStep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStep2ViewController.swift; sourceTree = "<group>"; };
+		A78342B42A40D94B004012CF /* WizardStep3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStep3ViewController.swift; sourceTree = "<group>"; };
+		A78342B72A40DBC4004012CF /* ScamViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScamViewViewController.swift; sourceTree = "<group>"; };
+		A78507272A40316500381E6A /* PackingListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackingListVC.swift; sourceTree = "<group>"; };
+		A785072E2A40316500381E6A /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		A78507302A40316500381E6A /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		A78BB0B22A3C4ED100024DDD /* InformationalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationalCollectionViewCell.swift; sourceTree = "<group>"; };
+		A78BB0B32A3C4ED100024DDD /* InformationalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationalCollectionViewCell.xib; sourceTree = "<group>"; };
+		A79A8C8D2A3C33A80042C87E /* TripSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSearchViewController.swift; sourceTree = "<group>"; };
+		A79F17362AD682A80094751F /* SimpleMsgAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMsgAlertViewController.swift; sourceTree = "<group>"; };
+		A7BB68E82A320C6000142104 /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
+		A7BB68EB2A332BF500142104 /* TripheaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripheaderTableViewCell.swift; sourceTree = "<group>"; };
+		A7BB68EC2A332BF500142104 /* TripheaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripheaderTableViewCell.xib; sourceTree = "<group>"; };
+		A7C072862A39A1EF00C6811A /* TripWeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWeatherDetailsViewController.swift; sourceTree = "<group>"; };
+		A7D490B82A77D59900F69F15 /* LoginAndAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndAccountViewController.swift; sourceTree = "<group>"; };
+		A7D490BA2A77EC3F00F69F15 /* UpdatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePasswordViewController.swift; sourceTree = "<group>"; };
+		A7D55C2D2A569A14004947B8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A7D55C2F2A569A39004947B8 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		A7D55C312A56A0CB004947B8 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		A7D55C332A56B9C4004947B8 /* NetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModels.swift; sourceTree = "<group>"; };
+		A7D57AA82A5C04EB004947B8 /* QLPackingCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLPackingCustomView.swift; sourceTree = "<group>"; };
+		A7D57AAA2A5EDD25004947B8 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		A7D57AAC2A5FDDF0004947B8 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		A7DBD8692A9E0569005D693E /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		A7DBD86B2A9F9E9D005D693E /* DeleteShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteShoppingListViewController.swift; sourceTree = "<group>"; };
+		A7DBD86E2AA08C95005D693E /* StackViewCustomDeleteOnScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewCustomDeleteOnScroll.swift; sourceTree = "<group>"; };
+		A7DBD8742AA20A7D005D693E /* EmptyTrip.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmptyTrip.json; sourceTree = "<group>"; };
+		A7E4D9EC2A49986200DE7B6F /* CustomPackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPackingView.swift; sourceTree = "<group>"; };
+		A7E4D9EE2A4998DF00DE7B6F /* CustomPrepationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrepationView.swift; sourceTree = "<group>"; };
+		A7E5D38F2A38732400EF70B0 /* StartPackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPackingViewController.swift; sourceTree = "<group>"; };
+		A7E5D3922A3873A900EF70B0 /* CreatepackingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatepackingCollectionViewCell.swift; sourceTree = "<group>"; };
+		A7E5D3932A3873A900EF70B0 /* CreatepackingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatepackingCollectionViewCell.xib; sourceTree = "<group>"; };
+		A7E5D3962A38774500EF70B0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A7E5D3982A38779000EF70B0 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		A7E5D39A2A3877C900EF70B0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A7E5D39C2A3877E600EF70B0 /* SignUpDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDetailsViewController.swift; sourceTree = "<group>"; };
+		A7FEEA1A2AE150B70085C0D7 /* UvCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UvCustomView.swift; sourceTree = "<group>"; };
+		BF39F96E02F76ECB3CC93AF8 /* Pods-TripSava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSava.release.xcconfig"; path = "Target Support Files/Pods-TripSava/Pods-TripSava.release.xcconfig"; sourceTree = "<group>"; };
+		EFCF9BC2E76A4EE0E6624D2C /* Pods_TripSava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripSava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F587C1472ADFBBB500B74393 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		F587C1482ADFBBB600B74393 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		F587C1492ADFBBB600B74393 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		F587C14A2ADFBBB600B74393 /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F587C14B2ADFBBB700B74393 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F587C14C2ADFBBB700B74393 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		F5EA9F3B2ADC7E62009A7675 /* House Sitter Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "House Sitter Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F3D2ADC7E6D009A7675 /* Motorcycle Pre-Ride Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Motorcycle Pre-Ride Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F3F2ADC7E74009A7675 /* Packing List Checklist Template.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Packing List Checklist Template.pdf"; sourceTree = "<group>"; };
+		F5EA9F412ADC7E7B009A7675 /* Pet Sitter Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Pet Sitter Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F432ADC7E83009A7675 /* Road Trip Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Road Trip Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F452ADC7E8A009A7675 /* RV Readiness Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "RV Readiness Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F472ADC7EC1009A7675 /* Accommodation Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Accommodation Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F492ADC7EC9009A7675 /* Bicycle Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bicycle Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F4B2ADC7ED6009A7675 /* Boat Rental Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Boat Rental Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F4D2ADC7EDE009A7675 /* Camping Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Camping Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F4F2ADC7EE9009A7675 /* Car Rental Checklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Car Rental Checklist.pdf"; sourceTree = "<group>"; };
+		F5EA9F512ADC8290009A7675 /* BasicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfo.swift; sourceTree = "<group>"; };
+		F5EA9F662ADD130E009A7675 /* PowerAdapterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAdapterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +320,397 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58E30942AE26080009ABB70 /* SmartlookAnalytics in Frameworks */,
+				909322F3FE8449D79A150064 /* Pods_TripSava.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1233060BB7C6CC847C7A4768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4690C771EE00EF3FDEDCC2EC /* Pods-TripSava.debug.xcconfig */,
+				BF39F96E02F76ECB3CC93AF8 /* Pods-TripSava.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A705B4052A6E92BB00FD687B /* Import QucikList */ = {
+			isa = PBXGroup;
+			children = (
+				A705B4062A6E92EE00FD687B /* ImportQuickListTableViewCell.swift */,
+				A705B4072A6E92EE00FD687B /* ImportQuickListTableViewCell.xib */,
+			);
+			path = "Import QucikList";
+			sourceTree = "<group>";
+		};
+		A705B40A2A7009A500FD687B /* Alert  */ = {
+			isa = PBXGroup;
+			children = (
+				A705B40B2A7009B300FD687B /* View */,
+				A705B40C2A7009BB00FD687B /* Controller */,
+			);
+			path = "Alert ";
+			sourceTree = "<group>";
+		};
+		A705B40B2A7009B300FD687B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A705B40D2A7009CA00FD687B /* Alert.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A705B40C2A7009BB00FD687B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A705B40F2A700DFC00FD687B /* AlertViewController.swift */,
+				A705B4112A712F6F00FD687B /* NoInternetViewController.swift */,
+				A7735F322A7E76DC00127025 /* WebViewViewController.swift */,
+				A7DBD8692A9E0569005D693E /* MessageViewController.swift */,
+				A7DBD86B2A9F9E9D005D693E /* DeleteShoppingListViewController.swift */,
+				A79F17362AD682A80094751F /* SimpleMsgAlertViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A705B4152A713ACD00FD687B /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				A705B4132A713AC900FD687B /* ReachabilityManager.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		A705B4162A713AE900FD687B /* Gif Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A740AC922A653D39004A1AE1 /* GifFile.swift */,
+			);
+			path = "Gif Extension";
+			sourceTree = "<group>";
+		};
+		A705B4192A72838400FD687B /* Print Packing */ = {
+			isa = PBXGroup;
+			children = (
+				A705B41A2A7283A300FD687B /* PrintTableViewCell.swift */,
+				A705B41B2A7283A300FD687B /* PrintTableViewCell.xib */,
+			);
+			path = "Print Packing";
+			sourceTree = "<group>";
+		};
+		A711E3112A30B65E003AD0BC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A711E3122A30B667003AD0BC /* Views */,
+				A711E3152A30B95F003AD0BC /* Controllers */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		A711E3122A30B667003AD0BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A711E3132A30B673003AD0BC /* Tabbar.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A711E3152A30B95F003AD0BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A711E3162A30B99D003AD0BC /* TabBarVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A711E3182A30B9C4003AD0BC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A711E31B2A30B9DE003AD0BC /* Models */,
+				A711E31A2A30B9D8003AD0BC /* Views */,
+				A711E3192A30B9CF003AD0BC /* Controllers */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A711E3192A30B9CF003AD0BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A73724832A31BCA900EF1B34 /* ShareFeedbackViewController.swift */,
+				A78342A12A40630D004012CF /* ProfileViewController.swift */,
+				A78342A32A4063CD004012CF /* EditProfileViewController.swift */,
+				A78342A52A40640A004012CF /* EditNotificationViewController.swift */,
+				A78342A72A406543004012CF /* ChangeEmailViewController.swift */,
+				A7D490B82A77D59900F69F15 /* LoginAndAccountViewController.swift */,
+				A7D490BA2A77EC3F00F69F15 /* UpdatePasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A711E31A2A30B9D8003AD0BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A711E31D2A30BA10003AD0BC /* Profile.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A711E31B2A30B9DE003AD0BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7198C322A3704C400D433B7 /* Trip Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				A7198C332A3704D500D433B7 /* Setp 1 */,
+				A7198C342A3704E200D433B7 /* Step 2 */,
+				A78342B32A40D927004012CF /* Step 3 */,
+			);
+			path = "Trip Wizard";
+			sourceTree = "<group>";
+		};
+		A7198C332A3704D500D433B7 /* Setp 1 */ = {
+			isa = PBXGroup;
+			children = (
+				A7198C352A37050600D433B7 /* WizardStep1ViewController.swift */,
+			);
+			path = "Setp 1";
+			sourceTree = "<group>";
+		};
+		A7198C342A3704E200D433B7 /* Step 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A78342B12A40D8AA004012CF /* WizardStep2ViewController.swift */,
+			);
+			path = "Step 2";
+			sourceTree = "<group>";
+		};
+		A72ED9F82A2F2EFF00534124 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A72ED9F92A2F2F0800534124 /* OnBoarding */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A72ED9F92A2F2F0800534124 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				A72ED9FA2A2F2F4100534124 /* OnBoardingCollectionViewCell.swift */,
+				A72ED9FB2A2F2F4100534124 /* OnBoardingCollectionViewCell.xib */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		A73724852A31C03700EF1B34 /* Code helping Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7DBD86D2AA08C6A005D693E /* Stack View Custom File */,
+				A74307672A882A4800B65DF9 /* ReadMore Label */,
+				A7735ED72A782E1500127025 /* MessageAndMail */,
+				A705B4162A713AE900FD687B /* Gif Extension */,
+				A705B4152A713ACD00FD687B /* Networks */,
+				A7D57AB02A5FE574004947B8 /* Buttons */,
+				A7D57AAF2A5FE560004947B8 /* Safari */,
+				A7D57AAE2A5FE54D004947B8 /* OTP */,
+			);
+			path = "Code helping Files";
+			sourceTree = "<group>";
+		};
+		A73724882A31E11700EF1B34 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				A73724892A31E12C00EF1B34 /* Models */,
+				A737248B2A31E13F00EF1B34 /* Views */,
+				A737248A2A31E13100EF1B34 /* Controllers */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		A73724892A31E12C00EF1B34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA9F652ADD12A4009A7675 /* Basic Info Model */,
+				A705B4052A6E92BB00FD687B /* Import QucikList */,
+				A7D57AA72A5C04CF004947B8 /* QL CustomView */,
+				A77CD47B2A3C2F8300472416 /* Trip Search */,
+				A7E5D3912A38738A00EF70B0 /* CreatePacking */,
+				A7700D782A37A8D900E42DE9 /* Trip Current Weather */,
+				A7BB68EA2A332AD800142104 /* Trip HeaderView */,
+				A737248E2A31ED7B00EF1B34 /* Trip Cell */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A737248A2A31E13100EF1B34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB68EF2A36F30300142104 /* Trip */,
+				A7198C322A3704C400D433B7 /* Trip Wizard */,
+				A7700D772A37A88700E42DE9 /* Trip Weather */,
+				A7C072852A39A1D300C6811A /* Trip Weather Details */,
+				A79A8C8B2A3C33460042C87E /* Trip Search */,
+				A7E5D39E2A387BAE00EF70B0 /* Start Packing */,
+				A78342AE2A40D5E8004012CF /* QuickList */,
+				A78342AB2A40D382004012CF /* Create Trip QuickList */,
+				A78342B62A40DB9F004012CF /* ScamsViews */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A737248B2A31E13F00EF1B34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A737248C2A31E15300EF1B34 /* Trip.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A737248E2A31ED7B00EF1B34 /* Trip Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A737248F2A31ED9700EF1B34 /* TripTableViewCell.swift */,
+				A73724902A31ED9700EF1B34 /* TripTableViewCell.xib */,
+			);
+			path = "Trip Cell";
+			sourceTree = "<group>";
+		};
+		A740AC8C2A653646004A1AE1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				A740AC8D2A653650004A1AE1 /* Gif */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		A740AC8D2A653650004A1AE1 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				A740ACBE2A6547C8004A1AE1 /* Anim.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		A740ACC22A66C24D004A1AE1 /* Json Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7DBD8742AA20A7D005D693E /* EmptyTrip.json */,
+				A740ACC32A66C272004A1AE1 /* OnBoardingAnim.json */,
+			);
+			path = "Json Files";
+			sourceTree = "<group>";
+		};
+		A74307552A840D0F00B65DF9 /* MainCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A74307562A840D3800B65DF9 /* MainCategoryCollectionViewCell.swift */,
+				A74307572A840D3800B65DF9 /* MainCategoryCollectionViewCell.xib */,
+			);
+			path = MainCategory;
+			sourceTree = "<group>";
+		};
+		A743075C2A841F8E00B65DF9 /* CataLog Home */ = {
+			isa = PBXGroup;
+			children = (
+				A783428F2A405C47004012CF /* HomeViewController.swift */,
+			);
+			path = "CataLog Home";
+			sourceTree = "<group>";
+		};
+		A743075D2A841F9C00B65DF9 /* Shopping Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A783428C2A405C47004012CF /* ShopingListViewController.swift */,
+			);
+			path = "Shopping Tab";
+			sourceTree = "<group>";
+		};
+		A743075E2A841FAC00B65DF9 /* Products Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A783428B2A405C47004012CF /* ProductsCategoriesViewController.swift */,
+			);
+			path = "Products Tab";
+			sourceTree = "<group>";
+		};
+		A743075F2A841FFF00B65DF9 /* See All Category */ = {
+			isa = PBXGroup;
+			children = (
+				A743075A2A841E1F00B65DF9 /* ViewAllCategoriesViewController.swift */,
+			);
+			path = "See All Category";
+			sourceTree = "<group>";
+		};
+		A74307602A84FFC100B65DF9 /* Category Details */ = {
+			isa = PBXGroup;
+			children = (
+				A783428E2A405C47004012CF /* FeaturedProductsViewController.swift */,
+			);
+			path = "Category Details";
+			sourceTree = "<group>";
+		};
+		A74307612A85003E00B65DF9 /* SubCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A74307622A85005600B65DF9 /* SubCategoryCollectionViewCell.swift */,
+				A74307632A85005600B65DF9 /* SubCategoryCollectionViewCell.xib */,
+			);
+			path = SubCategory;
+			sourceTree = "<group>";
+		};
+		A74307662A8808AD00B65DF9 /* Product details */ = {
+			isa = PBXGroup;
+			children = (
+				A78342A92A40CCE8004012CF /* ProductDetailsViewController.swift */,
+			);
+			path = "Product details";
+			sourceTree = "<group>";
+		};
+		A74307672A882A4800B65DF9 /* ReadMore Label */ = {
+			isa = PBXGroup;
+			children = (
+				A74307682A882A6800B65DF9 /* ReadMoreLabel.swift */,
+			);
+			path = "ReadMore Label";
+			sourceTree = "<group>";
+		};
+		A743076A2A89641B00B65DF9 /* Search Product */ = {
+			isa = PBXGroup;
+			children = (
+				A783428D2A405C47004012CF /* SearchProductsResultsViewController.swift */,
+			);
+			path = "Search Product";
+			sourceTree = "<group>";
+		};
+		A743076B2A89642B00B65DF9 /* Share Packing List */ = {
+			isa = PBXGroup;
+			children = (
+				A705B4172A72835500FD687B /* PrintViewController.swift */,
+			);
+			path = "Share Packing List";
+			sourceTree = "<group>";
+		};
+		A743076C2A89649F00B65DF9 /* packing List */ = {
+			isa = PBXGroup;
+			children = (
+				A78507272A40316500381E6A /* PackingListVC.swift */,
+			);
+			path = "packing List";
+			sourceTree = "<group>";
+		};
 		A74B2AAF2A2DEDE500EEA976 = {
 			isa = PBXGroup;
 			children = (
 				A74B2ABA2A2DEDE500EEA976 /* TripSava */,
 				A74B2AB92A2DEDE500EEA976 /* Products */,
+				1233060BB7C6CC847C7A4768 /* Pods */,
+				DB073A7A8DEF1CE4CB8A59E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +725,614 @@
 		A74B2ABA2A2DEDE500EEA976 /* TripSava */ = {
 			isa = PBXGroup;
 			children = (
-				A74B2ABB2A2DEDE500EEA976 /* AppDelegate.swift */,
-				A74B2ABD2A2DEDE500EEA976 /* SceneDelegate.swift */,
-				A74B2ABF2A2DEDE500EEA976 /* ViewController.swift */,
-				A74B2AC12A2DEDE500EEA976 /* Main.storyboard */,
+				A74B2ACF2A2DEDF100EEA976 /* Trip Sava */,
 				A74B2AC42A2DEDE600EEA976 /* Assets.xcassets */,
-				A74B2AC62A2DEDE600EEA976 /* LaunchScreen.storyboard */,
 				A74B2AC92A2DEDE600EEA976 /* Info.plist */,
 			);
 			path = TripSava;
+			sourceTree = "<group>";
+		};
+		A74B2ACF2A2DEDF100EEA976 /* Trip Sava */ = {
+			isa = PBXGroup;
+			children = (
+				A74B2ADA2A2DEEC500EEA976 /* Network Layers */,
+				A74B2AD82A2DEE9500EEA976 /* Helping Files */,
+				A74B2AD12A2DEE2300EEA976 /* Modules */,
+			);
+			path = "Trip Sava";
+			sourceTree = "<group>";
+		};
+		A74B2AD02A2DEE0B00EEA976 /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				A74B2ABB2A2DEDE500EEA976 /* AppDelegate.swift */,
+				A74B2ABD2A2DEDE500EEA976 /* SceneDelegate.swift */,
+			);
+			path = "Project Files";
+			sourceTree = "<group>";
+		};
+		A74B2AD12A2DEE2300EEA976 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A74B2AD22A2DEE3800EEA976 /* Splash */,
+				A74B2AD42A2DEE5100EEA976 /* Auth */,
+				A711E3112A30B65E003AD0BC /* Tabbar */,
+				A73724882A31E11700EF1B34 /* Trip */,
+				A74E1D612A3E301F003BE83A /* Inbox */,
+				A782BC072A3C48FD00135404 /* Library */,
+				A78342792A405C47004012CF /* CataLog */,
+				A705B40A2A7009A500FD687B /* Alert  */,
+				A711E3182A30B9C4003AD0BC /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A74B2AD22A2DEE3800EEA976 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				A74B2AD32A2DEE4200EEA976 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A74B2AD32A2DEE4200EEA976 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A74B2AC62A2DEDE600EEA976 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A74B2AD42A2DEE5100EEA976 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A72ED9F82A2F2EFF00534124 /* Models */,
+				A74B2AD62A2DEE6400EEA976 /* Views */,
+				A74B2AD52A2DEE5B00EEA976 /* Controllers */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A74B2AD52A2DEE5B00EEA976 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A72ED9FE2A2F32D200534124 /* OnBoardingViewController.swift */,
+				A7E5D3962A38774500EF70B0 /* LoginViewController.swift */,
+				A7E5D3982A38779000EF70B0 /* GetStartedViewController.swift */,
+				A7E5D39A2A3877C900EF70B0 /* SignUpViewController.swift */,
+				A7E5D39C2A3877E600EF70B0 /* SignUpDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A74B2AD62A2DEE6400EEA976 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A74B2AEC2A2DF8A500EEA976 /* Auth.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A74B2AD72A2DEE6900EEA976 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A72EDA002A2F408600534124 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A74B2AD82A2DEE9500EEA976 /* Helping Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7735F2C2A7E655800127025 /* Data */,
+				A740ACC22A66C24D004A1AE1 /* Json Files */,
+				A740AC8C2A653646004A1AE1 /* Animations */,
+				A73724852A31C03700EF1B34 /* Code helping Files */,
+				A74B2ADF2A2DF78100EEA976 /* Font */,
+				A74B2AD02A2DEE0B00EEA976 /* Project Files */,
+				A74B2AD72A2DEE6900EEA976 /* Models */,
+				A74B2AD92A2DEE9D00EEA976 /* Extension  */,
+			);
+			path = "Helping Files";
+			sourceTree = "<group>";
+		};
+		A74B2AD92A2DEE9D00EEA976 /* Extension  */ = {
+			isa = PBXGroup;
+			children = (
+				A7D55C312A56A0CB004947B8 /* Protocols.swift */,
+				A74B2ADB2A2DEFB300EEA976 /* Constants.swift */,
+				A74B2ADD2A2DEFBD00EEA976 /* Extension.swift */,
+			);
+			path = "Extension ";
+			sourceTree = "<group>";
+		};
+		A74B2ADA2A2DEEC500EEA976 /* Network Layers */ = {
+			isa = PBXGroup;
+			children = (
+				A7D55C2F2A569A39004947B8 /* NetworkServices.swift */,
+				A7D55C2D2A569A14004947B8 /* NetworkManager.swift */,
+				A7D55C332A56B9C4004947B8 /* NetworkModels.swift */,
+			);
+			path = "Network Layers";
+			sourceTree = "<group>";
+		};
+		A74B2ADF2A2DF78100EEA976 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F587C1472ADFBBB500B74393 /* DMSans-Bold.ttf */,
+				F587C14A2ADFBBB600B74393 /* DMSans-BoldItalic.ttf */,
+				F587C1492ADFBBB600B74393 /* DMSans-Italic.ttf */,
+				F587C14C2ADFBBB700B74393 /* DMSans-Medium.ttf */,
+				F587C14B2ADFBBB700B74393 /* DMSans-MediumItalic.ttf */,
+				F587C1482ADFBBB600B74393 /* DMSans-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		A74E1D612A3E301F003BE83A /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				A74E1D642A3E3037003BE83A /* Models */,
+				A74E1D632A3E302E003BE83A /* Views */,
+				A74E1D622A3E3027003BE83A /* Controllers */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		A74E1D622A3E3027003BE83A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A74E1D652A3E304A003BE83A /* InboxViewController.swift */,
+				A74E1D6F2A3E43EA003BE83A /* CubeDetailsViewController.swift */,
+				A74E1D802A3F0E05003BE83A /* AddCubeTasksViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A74E1D632A3E302E003BE83A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A74E1D672A3E3063003BE83A /* Inbox.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A74E1D642A3E3037003BE83A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A74E1D762A3E4691003BE83A /* Cube Header */,
+				A74E1D712A3E4450003BE83A /* Cube Details */,
+				A74E1D692A3E3718003BE83A /* Inbox Cell */,
+				A74E1D7B2A3F0C47003BE83A /* Cube Add Task */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A74E1D692A3E3718003BE83A /* Inbox Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A74E1D6A2A3E372D003BE83A /* InboxTableViewCell.swift */,
+				A74E1D6B2A3E372D003BE83A /* InboxTableViewCell.xib */,
+			);
+			path = "Inbox Cell";
+			sourceTree = "<group>";
+		};
+		A74E1D712A3E4450003BE83A /* Cube Details */ = {
+			isa = PBXGroup;
+			children = (
+				A74E1D722A3E446D003BE83A /* CubeDetailsCollectionViewCell.swift */,
+				A74E1D732A3E446D003BE83A /* CubeDetailsCollectionViewCell.xib */,
+			);
+			path = "Cube Details";
+			sourceTree = "<group>";
+		};
+		A74E1D762A3E4691003BE83A /* Cube Header */ = {
+			isa = PBXGroup;
+			children = (
+				A74E1D772A3E472C003BE83A /* CubeHeaderCollectionReusableView.swift */,
+				A74E1D782A3E472C003BE83A /* CubeHeaderCollectionReusableView.xib */,
+			);
+			path = "Cube Header";
+			sourceTree = "<group>";
+		};
+		A74E1D7B2A3F0C47003BE83A /* Cube Add Task */ = {
+			isa = PBXGroup;
+			children = (
+				A74E1D7C2A3F0C81003BE83A /* CubeAddTaskTableViewCell.swift */,
+				A74E1D7D2A3F0C81003BE83A /* CubeAddTaskTableViewCell.xib */,
+			);
+			path = "Cube Add Task";
+			sourceTree = "<group>";
+		};
+		A769074B2ACD82F50091BBBE /* PackingPreprationCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A769074C2ACD83980091BBBE /* PackingPreprationCategoryCell.swift */,
+				A769074D2ACD83980091BBBE /* PackingPreprationCategoryCell.xib */,
+			);
+			path = PackingPreprationCategory;
+			sourceTree = "<group>";
+		};
+		A7700D772A37A88700E42DE9 /* Trip Weather */ = {
+			isa = PBXGroup;
+			children = (
+				A7700D752A37A83500E42DE9 /* TripCurrentWeatherViewController.swift */,
+			);
+			path = "Trip Weather";
+			sourceTree = "<group>";
+		};
+		A7700D782A37A8D900E42DE9 /* Trip Current Weather */ = {
+			isa = PBXGroup;
+			children = (
+				A7700D792A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.swift */,
+				A7700D7A2A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.xib */,
+			);
+			path = "Trip Current Weather";
+			sourceTree = "<group>";
+		};
+		A7735ED72A782E1500127025 /* MessageAndMail */ = {
+			isa = PBXGroup;
+			children = (
+				A7735ED82A782E2F00127025 /* MessageAndMail.swift */,
+			);
+			path = MessageAndMail;
+			sourceTree = "<group>";
+		};
+		A7735EDC2A79273500127025 /* Embassies */ = {
+			isa = PBXGroup;
+			children = (
+				A7735EDD2A79275500127025 /* EmbassiesTableViewCell.swift */,
+				A7735EDE2A79275500127025 /* EmbassiesTableViewCell.xib */,
+			);
+			path = Embassies;
+			sourceTree = "<group>";
+		};
+		A7735EE12A7936A600127025 /* Embassies Headerview */ = {
+			isa = PBXGroup;
+			children = (
+				A7735EE22A79374E00127025 /* EmbassiesHeaderView.swift */,
+			);
+			path = "Embassies Headerview";
+			sourceTree = "<group>";
+		};
+		A7735EE72A7BCC3400127025 /* EmbassiesDetailsCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A7735EE82A7BCC4300127025 /* EmbassiesDetailsCustomView.swift */,
+			);
+			path = EmbassiesDetailsCustomView;
+			sourceTree = "<group>";
+		};
+		A7735F262A7E582000127025 /* CheckList */ = {
+			isa = PBXGroup;
+			children = (
+				A7735F272A7E583B00127025 /* CheckListCollectionViewCell.swift */,
+				A7735F282A7E583B00127025 /* CheckListCollectionViewCell.xib */,
+			);
+			path = CheckList;
+			sourceTree = "<group>";
+		};
+		A7735F2B2A7E654900127025 /* Check List Pdf */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA9F3D2ADC7E6D009A7675 /* Motorcycle Pre-Ride Checklist.pdf */,
+				F5EA9F452ADC7E8A009A7675 /* RV Readiness Checklist.pdf */,
+				F5EA9F3F2ADC7E74009A7675 /* Packing List Checklist Template.pdf */,
+				F5EA9F4D2ADC7EDE009A7675 /* Camping Checklist.pdf */,
+				F5EA9F432ADC7E83009A7675 /* Road Trip Checklist.pdf */,
+				F5EA9F4F2ADC7EE9009A7675 /* Car Rental Checklist.pdf */,
+				F5EA9F4B2ADC7ED6009A7675 /* Boat Rental Checklist.pdf */,
+				F5EA9F492ADC7EC9009A7675 /* Bicycle Checklist.pdf */,
+				F5EA9F3B2ADC7E62009A7675 /* House Sitter Checklist.pdf */,
+				F5EA9F472ADC7EC1009A7675 /* Accommodation Checklist.pdf */,
+				F5EA9F412ADC7E7B009A7675 /* Pet Sitter Checklist.pdf */,
+				A7735F2D2A7E659F00127025 /* PackingList.pdf */,
+			);
+			path = "Check List Pdf";
+			sourceTree = "<group>";
+		};
+		A7735F2C2A7E655800127025 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A7735F2B2A7E654900127025 /* Check List Pdf */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A77CD47B2A3C2F8300472416 /* Trip Search */ = {
+			isa = PBXGroup;
+			children = (
+				A77CD47E2A3C300900472416 /* TripSearchTableViewCell.swift */,
+				A77CD47F2A3C300900472416 /* TripSearchTableViewCell.xib */,
+			);
+			path = "Trip Search";
+			sourceTree = "<group>";
+		};
+		A782BC022A3C469600135404 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A782BC032A3C46BF00135404 /* LibraryCollectionViewCell.swift */,
+				A782BC042A3C46BF00135404 /* LibraryCollectionViewCell.xib */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A782BC072A3C48FD00135404 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A782BC0A2A3C492600135404 /* Models */,
+				A782BC092A3C491E00135404 /* Views */,
+				A782BC082A3C491100135404 /* Controller */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A782BC082A3C491100135404 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A782BC002A3C468D00135404 /* LibraryViewController.swift */,
+				A7735EDA2A791C3000127025 /* EmbassiesViewController.swift */,
+				A7735EE52A7BAFA100127025 /* EmbassiesDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A782BC092A3C491E00135404 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A782BC0B2A3C494100135404 /* Library.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A782BC0A2A3C492600135404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7735F262A7E582000127025 /* CheckList */,
+				A7735EE72A7BCC3400127025 /* EmbassiesDetailsCustomView */,
+				A7735EE12A7936A600127025 /* Embassies Headerview */,
+				A7735EDC2A79273500127025 /* Embassies */,
+				A78BB0B12A3C4EB100024DDD /* Informational Cell */,
+				A782BC022A3C469600135404 /* Library */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A78342792A405C47004012CF /* CataLog */ = {
+			isa = PBXGroup;
+			children = (
+				A783427A2A405C47004012CF /* Models */,
+				A78342902A405C47004012CF /* Views */,
+				A783428A2A405C47004012CF /* Controlllers */,
+			);
+			path = CataLog;
+			sourceTree = "<group>";
+		};
+		A783427A2A405C47004012CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEEA192AE150A30085C0D7 /* UV Custom View */,
+				A769074B2ACD82F50091BBBE /* PackingPreprationCategory */,
+				A74307612A85003E00B65DF9 /* SubCategory */,
+				A74307552A840D0F00B65DF9 /* MainCategory */,
+				A705B4192A72838400FD687B /* Print Packing */,
+				A7E4D9EB2A49980200DE7B6F /* StackView Custom Views */,
+				A78342852A405C47004012CF /* ShopingListTableViewCell */,
+				A783427B2A405C47004012CF /* FavoriteProductCell */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A783427B2A405C47004012CF /* FavoriteProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				A783427D2A405C47004012CF /* FavoriteProductCollectionViewCell.xib */,
+				A783427C2A405C47004012CF /* FavoriteProductCollectionViewCell.swift */,
+			);
+			path = FavoriteProductCell;
+			sourceTree = "<group>";
+		};
+		A78342852A405C47004012CF /* ShopingListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A78342862A405C47004012CF /* ShopingListTableViewCell.xib */,
+				A78342872A405C47004012CF /* ShopingListTableViewCell.swift */,
+			);
+			path = ShopingListTableViewCell;
+			sourceTree = "<group>";
+		};
+		A783428A2A405C47004012CF /* Controlllers */ = {
+			isa = PBXGroup;
+			children = (
+				A743076C2A89649F00B65DF9 /* packing List */,
+				A743076B2A89642B00B65DF9 /* Share Packing List */,
+				A743076A2A89641B00B65DF9 /* Search Product */,
+				A74307662A8808AD00B65DF9 /* Product details */,
+				A74307602A84FFC100B65DF9 /* Category Details */,
+				A743075F2A841FFF00B65DF9 /* See All Category */,
+				A743075E2A841FAC00B65DF9 /* Products Tab */,
+				A743075D2A841F9C00B65DF9 /* Shopping Tab */,
+				A743075C2A841F8E00B65DF9 /* CataLog Home */,
+			);
+			path = Controlllers;
+			sourceTree = "<group>";
+		};
+		A78342902A405C47004012CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A78342912A405C47004012CF /* Home.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A78342AB2A40D382004012CF /* Create Trip QuickList */ = {
+			isa = PBXGroup;
+			children = (
+				A78342AC2A40D3A6004012CF /* CreateTripQuickListViewController.swift */,
+			);
+			path = "Create Trip QuickList";
+			sourceTree = "<group>";
+		};
+		A78342AE2A40D5E8004012CF /* QuickList */ = {
+			isa = PBXGroup;
+			children = (
+				A78342AF2A40D604004012CF /* QuickListDetailsViewController.swift */,
+			);
+			path = QuickList;
+			sourceTree = "<group>";
+		};
+		A78342B32A40D927004012CF /* Step 3 */ = {
+			isa = PBXGroup;
+			children = (
+				A78342B42A40D94B004012CF /* WizardStep3ViewController.swift */,
+			);
+			path = "Step 3";
+			sourceTree = "<group>";
+		};
+		A78342B62A40DB9F004012CF /* ScamsViews */ = {
+			isa = PBXGroup;
+			children = (
+				A78342B72A40DBC4004012CF /* ScamViewViewController.swift */,
+				A7011D662ADC6DBC000734A7 /* BasicInfoViewController.swift */,
+			);
+			path = ScamsViews;
+			sourceTree = "<group>";
+		};
+		A78BB0B12A3C4EB100024DDD /* Informational Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A78BB0B22A3C4ED100024DDD /* InformationalCollectionViewCell.swift */,
+				A78BB0B32A3C4ED100024DDD /* InformationalCollectionViewCell.xib */,
+			);
+			path = "Informational Cell";
+			sourceTree = "<group>";
+		};
+		A79A8C8B2A3C33460042C87E /* Trip Search */ = {
+			isa = PBXGroup;
+			children = (
+				A79A8C8D2A3C33A80042C87E /* TripSearchViewController.swift */,
+			);
+			path = "Trip Search";
+			sourceTree = "<group>";
+		};
+		A7BB68EA2A332AD800142104 /* Trip HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB68EB2A332BF500142104 /* TripheaderTableViewCell.swift */,
+				A7BB68EC2A332BF500142104 /* TripheaderTableViewCell.xib */,
+			);
+			path = "Trip HeaderView";
+			sourceTree = "<group>";
+		};
+		A7BB68EF2A36F30300142104 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB68E82A320C6000142104 /* TripViewController.swift */,
+				A71EAED02A8246FE002EAEB6 /* AddNewTripViewController.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		A7C072852A39A1D300C6811A /* Trip Weather Details */ = {
+			isa = PBXGroup;
+			children = (
+				A7C072862A39A1EF00C6811A /* TripWeatherDetailsViewController.swift */,
+			);
+			path = "Trip Weather Details";
+			sourceTree = "<group>";
+		};
+		A7D57AA72A5C04CF004947B8 /* QL CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A7D57AA82A5C04EB004947B8 /* QLPackingCustomView.swift */,
+			);
+			path = "QL CustomView";
+			sourceTree = "<group>";
+		};
+		A7D57AAE2A5FE54D004947B8 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				A7D57AAA2A5EDD25004947B8 /* OTPTextField.swift */,
+				A7D57AAC2A5FDDF0004947B8 /* OTPView.swift */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		A7D57AAF2A5FE560004947B8 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				A73724862A31C05400EF1B34 /* SafariViewController.swift */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		A7D57AB02A5FE574004947B8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A78507302A40316500381E6A /* CheckBox.swift */,
+				A785072E2A40316500381E6A /* CustomSegmentedControl.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		A7DBD86D2AA08C6A005D693E /* Stack View Custom File */ = {
+			isa = PBXGroup;
+			children = (
+				A7DBD86E2AA08C95005D693E /* StackViewCustomDeleteOnScroll.swift */,
+			);
+			path = "Stack View Custom File";
+			sourceTree = "<group>";
+		};
+		A7E4D9EB2A49980200DE7B6F /* StackView Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7E4D9EC2A49986200DE7B6F /* CustomPackingView.swift */,
+				A7E4D9EE2A4998DF00DE7B6F /* CustomPrepationView.swift */,
+				A743076D2A91291400B65DF9 /* CustomAddNewItem.swift */,
+			);
+			path = "StackView Custom Views";
+			sourceTree = "<group>";
+		};
+		A7E5D3912A38738A00EF70B0 /* CreatePacking */ = {
+			isa = PBXGroup;
+			children = (
+				A7E5D3932A3873A900EF70B0 /* CreatepackingCollectionViewCell.xib */,
+				A7E5D3922A3873A900EF70B0 /* CreatepackingCollectionViewCell.swift */,
+			);
+			path = CreatePacking;
+			sourceTree = "<group>";
+		};
+		A7E5D39E2A387BAE00EF70B0 /* Start Packing */ = {
+			isa = PBXGroup;
+			children = (
+				A7E5D38F2A38732400EF70B0 /* StartPackingViewController.swift */,
+			);
+			path = "Start Packing";
+			sourceTree = "<group>";
+		};
+		A7FEEA192AE150A30085C0D7 /* UV Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEEA1A2AE150B70085C0D7 /* UvCustomView.swift */,
+			);
+			path = "UV Custom View";
+			sourceTree = "<group>";
+		};
+		DB073A7A8DEF1CE4CB8A59E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF9BC2E76A4EE0E6624D2C /* Pods_TripSava.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5EA9F652ADD12A4009A7675 /* Basic Info Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA9F512ADC8290009A7675 /* BasicInfo.swift */,
+				F5EA9F662ADD130E009A7675 /* PowerAdapterCell.swift */,
+			);
+			path = "Basic Info Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +1342,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A74B2ACC2A2DEDE600EEA976 /* Build configuration list for PBXNativeTarget "TripSava" */;
 			buildPhases = (
+				EE5406008B52EC826CFDB5EF /* [CP] Check Pods Manifest.lock */,
 				A74B2AB42A2DEDE500EEA976 /* Sources */,
 				A74B2AB52A2DEDE500EEA976 /* Frameworks */,
 				A74B2AB62A2DEDE500EEA976 /* Resources */,
+				E65B5316BC64E5C61FF0F766 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TripSava;
+			packageProductDependencies = (
+				F58E30932AE26080009ABB70 /* SmartlookAnalytics */,
+			);
 			productName = TripSava;
 			productReference = A74B2AB82A2DEDE500EEA976 /* TripSava.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +1384,9 @@
 				Base,
 			);
 			mainGroup = A74B2AAF2A2DEDE500EEA976;
+			packageReferences = (
+				F58E30922AE26080009ABB70 /* XCRemoteSwiftPackageReference "analytics-swift-package" */,
+			);
 			productRefGroup = A74B2AB92A2DEDE500EEA976 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,36 +1401,212 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74B2AED2A2DF8A500EEA976 /* Auth.storyboard in Resources */,
+				A74E1D6D2A3E372D003BE83A /* InboxTableViewCell.xib in Resources */,
+				F5EA9F462ADC7E8B009A7675 /* RV Readiness Checklist.pdf in Resources */,
+				A74307652A85005600B65DF9 /* SubCategoryCollectionViewCell.xib in Resources */,
+				A782BC0C2A3C494100135404 /* Library.storyboard in Resources */,
+				A7E5D3952A3873A900EF70B0 /* CreatepackingCollectionViewCell.xib in Resources */,
+				A78342982A405C47004012CF /* ShopingListTableViewCell.xib in Resources */,
+				F5EA9F422ADC7E7B009A7675 /* Pet Sitter Checklist.pdf in Resources */,
+				A740ACBF2A6547C8004A1AE1 /* Anim.gif in Resources */,
+				A7700D7C2A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.xib in Resources */,
+				A705B4092A6E92EE00FD687B /* ImportQuickListTableViewCell.xib in Resources */,
+				F58E308F2AE23F3E009ABB70 /* DMSans-Bold.ttf in Resources */,
+				A740ACC42A66C273004A1AE1 /* OnBoardingAnim.json in Resources */,
+				A74307592A840D3800B65DF9 /* MainCategoryCollectionViewCell.xib in Resources */,
+				A73724922A31ED9700EF1B34 /* TripTableViewCell.xib in Resources */,
+				A7735F2A2A7E583B00127025 /* CheckListCollectionViewCell.xib in Resources */,
+				F5EA9F4C2ADC7ED6009A7675 /* Boat Rental Checklist.pdf in Resources */,
+				A74E1D7F2A3F0C81003BE83A /* CubeAddTaskTableViewCell.xib in Resources */,
+				A78342932A405C47004012CF /* FavoriteProductCollectionViewCell.xib in Resources */,
+				A72ED9FD2A2F2F4100534124 /* OnBoardingCollectionViewCell.xib in Resources */,
+				A78342A02A405C47004012CF /* Home.storyboard in Resources */,
+				A74E1D752A3E446D003BE83A /* CubeDetailsCollectionViewCell.xib in Resources */,
+				A74E1D682A3E3063003BE83A /* Inbox.storyboard in Resources */,
+				A78BB0B52A3C4ED100024DDD /* InformationalCollectionViewCell.xib in Resources */,
+				F5EA9F4E2ADC7EDE009A7675 /* Camping Checklist.pdf in Resources */,
+				A737248D2A31E15300EF1B34 /* Trip.storyboard in Resources */,
+				A711E31E2A30BA10003AD0BC /* Profile.storyboard in Resources */,
+				F5EA9F502ADC7EE9009A7675 /* Car Rental Checklist.pdf in Resources */,
+				A711E3142A30B673003AD0BC /* Tabbar.storyboard in Resources */,
+				A7BB68EE2A332BF500142104 /* TripheaderTableViewCell.xib in Resources */,
+				F58E30912AE23F3E009ABB70 /* DMSans-Italic.ttf in Resources */,
+				F58E308E2AE23F3E009ABB70 /* DMSans-Regular.ttf in Resources */,
+				A782BC062A3C46BF00135404 /* LibraryCollectionViewCell.xib in Resources */,
+				F58E30902AE23F3E009ABB70 /* DMSans-BoldItalic.ttf in Resources */,
+				A705B41D2A7283A300FD687B /* PrintTableViewCell.xib in Resources */,
+				F5EA9F3C2ADC7E62009A7675 /* House Sitter Checklist.pdf in Resources */,
 				A74B2AC82A2DEDE600EEA976 /* LaunchScreen.storyboard in Resources */,
+				F5EA9F3E2ADC7E6D009A7675 /* Motorcycle Pre-Ride Checklist.pdf in Resources */,
+				A705B40E2A7009CA00FD687B /* Alert.storyboard in Resources */,
+				F58E308C2AE23F3E009ABB70 /* DMSans-Medium.ttf in Resources */,
+				A7735F2E2A7E659F00127025 /* PackingList.pdf in Resources */,
+				A74E1D7A2A3E472C003BE83A /* CubeHeaderCollectionReusableView.xib in Resources */,
+				F5EA9F4A2ADC7EC9009A7675 /* Bicycle Checklist.pdf in Resources */,
+				F5EA9F482ADC7EC1009A7675 /* Accommodation Checklist.pdf in Resources */,
+				A7DBD8752AA20A7D005D693E /* EmptyTrip.json in Resources */,
+				A77CD4812A3C300900472416 /* TripSearchTableViewCell.xib in Resources */,
+				A7735EE02A79275500127025 /* EmbassiesTableViewCell.xib in Resources */,
 				A74B2AC52A2DEDE600EEA976 /* Assets.xcassets in Resources */,
-				A74B2AC32A2DEDE500EEA976 /* Main.storyboard in Resources */,
+				A769074F2ACD83980091BBBE /* PackingPreprationCategoryCell.xib in Resources */,
+				F58E308D2AE23F3E009ABB70 /* DMSans-MediumItalic.ttf in Resources */,
+				F5EA9F402ADC7E74009A7675 /* Packing List Checklist Template.pdf in Resources */,
+				F5EA9F442ADC7E83009A7675 /* Road Trip Checklist.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E65B5316BC64E5C61FF0F766 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripSava/Pods-TripSava-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripSava/Pods-TripSava-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TripSava/Pods-TripSava-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE5406008B52EC826CFDB5EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripSava-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A74B2AB42A2DEDE500EEA976 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74B2AC02A2DEDE500EEA976 /* ViewController.swift in Sources */,
+				A7E5D3942A3873A900EF70B0 /* CreatepackingCollectionViewCell.swift in Sources */,
+				A73724912A31ED9700EF1B34 /* TripTableViewCell.swift in Sources */,
+				A705B4182A72835500FD687B /* PrintViewController.swift in Sources */,
 				A74B2ABC2A2DEDE500EEA976 /* AppDelegate.swift in Sources */,
 				A74B2ABE2A2DEDE500EEA976 /* SceneDelegate.swift in Sources */,
+				A78342B82A40DBC4004012CF /* ScamViewViewController.swift in Sources */,
+				A7735ED92A782E2F00127025 /* MessageAndMail.swift in Sources */,
+				A78342922A405C47004012CF /* FavoriteProductCollectionViewCell.swift in Sources */,
+				A74E1D662A3E304A003BE83A /* InboxViewController.swift in Sources */,
+				A78342B52A40D94B004012CF /* WizardStep3ViewController.swift in Sources */,
+				A78342AD2A40D3A6004012CF /* CreateTripQuickListViewController.swift in Sources */,
+				A74E1D812A3F0E05003BE83A /* AddCubeTasksViewController.swift in Sources */,
+				A705B41C2A7283A300FD687B /* PrintTableViewCell.swift in Sources */,
+				A705B4122A712F6F00FD687B /* NoInternetViewController.swift in Sources */,
+				A7FEEA1B2AE150B70085C0D7 /* UvCustomView.swift in Sources */,
+				A7C072872A39A1EF00C6811A /* TripWeatherDetailsViewController.swift in Sources */,
+				A74E1D792A3E472C003BE83A /* CubeHeaderCollectionReusableView.swift in Sources */,
+				A74E1D702A3E43EA003BE83A /* CubeDetailsViewController.swift in Sources */,
+				A7D55C302A569A39004947B8 /* NetworkServices.swift in Sources */,
+				A7DBD86A2A9E0569005D693E /* MessageViewController.swift in Sources */,
+				A705B4102A700DFC00FD687B /* AlertViewController.swift in Sources */,
+				A783429F2A405C47004012CF /* HomeViewController.swift in Sources */,
+				A7D55C322A56A0CB004947B8 /* Protocols.swift in Sources */,
+				A7D55C2E2A569A14004947B8 /* NetworkManager.swift in Sources */,
+				A7E5D3972A38774500EF70B0 /* LoginViewController.swift in Sources */,
+				A7735F292A7E583B00127025 /* CheckListCollectionViewCell.swift in Sources */,
+				A79F17372AD682A80094751F /* SimpleMsgAlertViewController.swift in Sources */,
+				A78342992A405C47004012CF /* ShopingListTableViewCell.swift in Sources */,
+				A743075B2A841E1F00B65DF9 /* ViewAllCategoriesViewController.swift in Sources */,
+				A7735EE62A7BAFA100127025 /* EmbassiesDetailsViewController.swift in Sources */,
+				A7BB68ED2A332BF500142104 /* TripheaderTableViewCell.swift in Sources */,
+				F5EA9F672ADD130E009A7675 /* PowerAdapterCell.swift in Sources */,
+				A705B4082A6E92EE00FD687B /* ImportQuickListTableViewCell.swift in Sources */,
+				A7735EDF2A79275500127025 /* EmbassiesTableViewCell.swift in Sources */,
+				A78342A82A406543004012CF /* ChangeEmailViewController.swift in Sources */,
+				A74E1D6C2A3E372D003BE83A /* InboxTableViewCell.swift in Sources */,
+				A73724872A31C05400EF1B34 /* SafariViewController.swift in Sources */,
+				A74B2ADC2A2DEFB300EEA976 /* Constants.swift in Sources */,
+				A72ED9FF2A2F32D200534124 /* OnBoardingViewController.swift in Sources */,
+				A7D490B92A77D59900F69F15 /* LoginAndAccountViewController.swift in Sources */,
+				A783429E2A405C47004012CF /* FeaturedProductsViewController.swift in Sources */,
+				A78342B02A40D604004012CF /* QuickListDetailsViewController.swift in Sources */,
+				A72ED9FC2A2F2F4100534124 /* OnBoardingCollectionViewCell.swift in Sources */,
+				A78342AA2A40CCE8004012CF /* ProductDetailsViewController.swift in Sources */,
+				A783429D2A405C47004012CF /* SearchProductsResultsViewController.swift in Sources */,
+				A7700D762A37A83500E42DE9 /* TripCurrentWeatherViewController.swift in Sources */,
+				A7DBD86C2A9F9E9D005D693E /* DeleteShoppingListViewController.swift in Sources */,
+				A705B4142A713AC900FD687B /* ReachabilityManager.swift in Sources */,
+				A782BC012A3C468D00135404 /* LibraryViewController.swift in Sources */,
+				A7735F332A7E76DC00127025 /* WebViewViewController.swift in Sources */,
+				A78342A42A4063CD004012CF /* EditProfileViewController.swift in Sources */,
+				A7011D672ADC6DBC000734A7 /* BasicInfoViewController.swift in Sources */,
+				A7735EE92A7BCC4300127025 /* EmbassiesDetailsCustomView.swift in Sources */,
+				A78342A62A40640A004012CF /* EditNotificationViewController.swift in Sources */,
+				A74B2ADE2A2DEFBD00EEA976 /* Extension.swift in Sources */,
+				A73724842A31BCA900EF1B34 /* ShareFeedbackViewController.swift in Sources */,
+				A7BB68E92A320C6000142104 /* TripViewController.swift in Sources */,
+				A783429B2A405C47004012CF /* ProductsCategoriesViewController.swift in Sources */,
+				A78342A22A40630D004012CF /* ProfileViewController.swift in Sources */,
+				A7D490BB2A77EC3F00F69F15 /* UpdatePasswordViewController.swift in Sources */,
+				A78507362A40316500381E6A /* CustomSegmentedControl.swift in Sources */,
+				A7E4D9ED2A49986200DE7B6F /* CustomPackingView.swift in Sources */,
+				A74307642A85005600B65DF9 /* SubCategoryCollectionViewCell.swift in Sources */,
+				A7198C362A37050600D433B7 /* WizardStep1ViewController.swift in Sources */,
+				A7735EE32A79374E00127025 /* EmbassiesHeaderView.swift in Sources */,
+				A77CD4802A3C300900472416 /* TripSearchTableViewCell.swift in Sources */,
+				A783429C2A405C47004012CF /* ShopingListViewController.swift in Sources */,
+				A74307692A882A6800B65DF9 /* ReadMoreLabel.swift in Sources */,
+				A7E5D39D2A3877E600EF70B0 /* SignUpDetailsViewController.swift in Sources */,
+				A71EAED12A8246FE002EAEB6 /* AddNewTripViewController.swift in Sources */,
+				A78342B22A40D8AA004012CF /* WizardStep2ViewController.swift in Sources */,
+				A782BC052A3C46BF00135404 /* LibraryCollectionViewCell.swift in Sources */,
+				A7E5D39B2A3877C900EF70B0 /* SignUpViewController.swift in Sources */,
+				A711E3172A30B99D003AD0BC /* TabBarVC.swift in Sources */,
+				A7735EDB2A791C3000127025 /* EmbassiesViewController.swift in Sources */,
+				A769074E2ACD83980091BBBE /* PackingPreprationCategoryCell.swift in Sources */,
+				A7DBD86F2AA08C95005D693E /* StackViewCustomDeleteOnScroll.swift in Sources */,
+				A7E5D3902A38732400EF70B0 /* StartPackingViewController.swift in Sources */,
+				A7D57AAB2A5EDD25004947B8 /* OTPTextField.swift in Sources */,
+				F5EA9F522ADC8290009A7675 /* BasicInfo.swift in Sources */,
+				A7E4D9EF2A4998DF00DE7B6F /* CustomPrepationView.swift in Sources */,
+				A7D55C342A56B9C4004947B8 /* NetworkModels.swift in Sources */,
+				A7D57AA92A5C04EB004947B8 /* QLPackingCustomView.swift in Sources */,
+				A7D57AAD2A5FDDF0004947B8 /* OTPView.swift in Sources */,
+				A74E1D742A3E446D003BE83A /* CubeDetailsCollectionViewCell.swift in Sources */,
+				A7700D7B2A37A90100E42DE9 /* tripCurrentWeatherCollectionViewCell.swift in Sources */,
+				A72EDA012A2F408600534124 /* Models.swift in Sources */,
+				A79A8C8E2A3C33A80042C87E /* TripSearchViewController.swift in Sources */,
+				A74307582A840D3800B65DF9 /* MainCategoryCollectionViewCell.swift in Sources */,
+				A78BB0B42A3C4ED100024DDD /* InformationalCollectionViewCell.swift in Sources */,
+				A78507382A40316500381E6A /* CheckBox.swift in Sources */,
+				A743076E2A91291400B65DF9 /* CustomAddNewItem.swift in Sources */,
+				A78507322A40316500381E6A /* PackingListVC.swift in Sources */,
+				A7E5D3992A38779000EF70B0 /* GetStartedViewController.swift in Sources */,
+				A740AC932A653D39004A1AE1 /* GifFile.swift in Sources */,
+				A74E1D7E2A3F0C81003BE83A /* CubeAddTaskTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A74B2AC12A2DEDE500EEA976 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A74B2AC22A2DEDE500EEA976 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A74B2AC62A2DEDE600EEA976 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,57 +1734,65 @@
 		};
 		A74B2ACD2A2DEDE600EEA976 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4690C771EE00EF3FDEDCC2EC /* Pods-TripSava.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9GXJC6C5XQ;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = 645HQ5X37G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TripSava/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chirptech.TripSava;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tripSava.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A74B2ACE2A2DEDE600EEA976 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF39F96E02F76ECB3CC93AF8 /* Pods-TripSava.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9GXJC6C5XQ;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = 645HQ5X37G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TripSava/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chirptech.TripSava;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tripSava.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +1818,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F58E30922AE26080009ABB70 /* XCRemoteSwiftPackageReference "analytics-swift-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/smartlook/analytics-swift-package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F58E30932AE26080009ABB70 /* SmartlookAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58E30922AE26080009ABB70 /* XCRemoteSwiftPackageReference "analytics-swift-package" */;
+			productName = SmartlookAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A74B2AB02A2DEDE500EEA976 /* Project object */;
 }

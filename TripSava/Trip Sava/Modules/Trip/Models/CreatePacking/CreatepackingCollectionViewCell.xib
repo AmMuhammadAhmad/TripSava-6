@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DMSans-Medium.ttf">
+            <string>DMSans-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CreatepackingCollectionViewCell" id="gTV-IL-0wX" customClass="CreatepackingCollectionViewCell" customModule="TripSava" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="394"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="394"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZNe-uX-7qe">
+                        <rect key="frame" x="8" y="8" width="154" height="378"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0eR-Sb-JKQ">
+                                <rect key="frame" x="16" y="12" width="130" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-h4-qcq" customClass="CheckBox" customModule="TripSava" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="36"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="bI1-7g-ZGo"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="uncheckedTick"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tennis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ypf-7u-vVF">
+                                        <rect key="frame" x="28" y="0.0" width="102" height="36"/>
+                                        <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdu-hj-dMF">
+                                <rect key="frame" x="0.0" y="64" width="154" height="1"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="0.95950255101020399" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="6Cn-i3-Cck"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="0.95950255101020399" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="cal-rD-Vbd">
+                                <rect key="frame" x="16" y="78" width="126" height="274"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cal-rD-Vbd" firstAttribute="leading" secondItem="fdu-hj-dMF" secondAttribute="leading" constant="16" id="0Wi-Db-bZH"/>
+                            <constraint firstItem="0eR-Sb-JKQ" firstAttribute="leading" secondItem="cal-rD-Vbd" secondAttribute="leading" id="9KB-PU-rlT"/>
+                            <constraint firstAttribute="bottom" secondItem="cal-rD-Vbd" secondAttribute="bottom" constant="26" id="Gtc-Nj-rDl"/>
+                            <constraint firstItem="cal-rD-Vbd" firstAttribute="top" secondItem="fdu-hj-dMF" secondAttribute="bottom" constant="13" id="HYs-sC-BmB"/>
+                            <constraint firstItem="cal-rD-Vbd" firstAttribute="trailing" secondItem="fdu-hj-dMF" secondAttribute="trailing" constant="-12" id="IHz-Ch-rrc"/>
+                            <constraint firstItem="fdu-hj-dMF" firstAttribute="leading" secondItem="ZNe-uX-7qe" secondAttribute="leading" id="Pnb-91-U6e"/>
+                            <constraint firstItem="fdu-hj-dMF" firstAttribute="top" secondItem="0eR-Sb-JKQ" secondAttribute="bottom" constant="16" id="TzQ-2b-z5P"/>
+                            <constraint firstAttribute="trailing" secondItem="0eR-Sb-JKQ" secondAttribute="trailing" constant="8" id="ers-E3-LPV"/>
+                            <constraint firstItem="0eR-Sb-JKQ" firstAttribute="top" secondItem="ZNe-uX-7qe" secondAttribute="top" constant="12" id="fA2-cn-xDX"/>
+                            <constraint firstAttribute="trailing" secondItem="fdu-hj-dMF" secondAttribute="trailing" id="hUs-Ci-e8d"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.40000000000000002"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="1" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.2784313725" green="0.28235294119999998" blue="0.2784313725" alpha="0.69459502549999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ZNe-uX-7qe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="JZf-x8-r5t"/>
+                <constraint firstAttribute="trailing" secondItem="ZNe-uX-7qe" secondAttribute="trailing" constant="8" id="aID-IY-mJI"/>
+                <constraint firstItem="ZNe-uX-7qe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="aZl-qW-ue0"/>
+                <constraint firstAttribute="bottom" secondItem="ZNe-uX-7qe" secondAttribute="bottom" constant="8" id="vqN-ll-5ni"/>
+            </constraints>
+            <size key="customSize" width="280" height="394"/>
+            <connections>
+                <outlet property="checkButton" destination="ybZ-h4-qcq" id="fjB-WB-6pj"/>
+                <outlet property="listStackView" destination="cal-rD-Vbd" id="52D-kg-uhB"/>
+                <outlet property="titleLabel" destination="Ypf-7u-vVF" id="PDE-gg-zV8"/>
+            </connections>
+            <point key="canvasLocation" x="314.50381679389312" y="140.84507042253523"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="uncheckedTick" width="22" height="22"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

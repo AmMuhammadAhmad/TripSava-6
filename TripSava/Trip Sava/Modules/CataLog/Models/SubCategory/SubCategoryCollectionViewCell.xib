@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DMSans-Regular.ttf">
+            <string>DMSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SubCategoryCollectionViewCell" id="gTV-IL-0wX" customClass="SubCategoryCollectionViewCell" customModule="TripSava" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="39"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="39"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vo4-58-pGd">
+                        <rect key="frame" x="10" y="35" width="70" height="4"/>
+                        <color key="backgroundColor" red="0.88627450980392153" green="0.41568627450980389" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="4" id="Tmx-YA-Bso"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toiletries Bags" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uv7-cA-Dpb">
+                        <rect key="frame" x="10" y="3.9999999999999982" width="70" height="31.333333333333329"/>
+                        <fontDescription key="fontDescription" name="DMSans-Regular" family="DM Sans" pointSize="12"/>
+                        <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Uv7-cA-Dpb" secondAttribute="trailing" constant="10" id="DBw-jm-U0h"/>
+                <constraint firstAttribute="bottom" secondItem="Vo4-58-pGd" secondAttribute="bottom" id="EkC-fp-nHZ"/>
+                <constraint firstItem="Vo4-58-pGd" firstAttribute="leading" secondItem="Uv7-cA-Dpb" secondAttribute="leading" id="UFq-1H-eks"/>
+                <constraint firstItem="Vo4-58-pGd" firstAttribute="trailing" secondItem="Uv7-cA-Dpb" secondAttribute="trailing" id="YfY-bV-VAa"/>
+                <constraint firstItem="Uv7-cA-Dpb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="fUT-yI-e24"/>
+                <constraint firstItem="Uv7-cA-Dpb" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="tqZ-Sd-mmY"/>
+            </constraints>
+            <size key="customSize" width="101" height="28"/>
+            <connections>
+                <outlet property="selectedBar" destination="Vo4-58-pGd" id="mSy-rD-zDN"/>
+                <outlet property="subCategoryNameLabel" destination="Uv7-cA-Dpb" id="ycg-OD-BSL"/>
+            </connections>
+            <point key="canvasLocation" x="246.56488549618319" y="28.87323943661972"/>
+        </collectionViewCell>
+    </objects>
+</document>

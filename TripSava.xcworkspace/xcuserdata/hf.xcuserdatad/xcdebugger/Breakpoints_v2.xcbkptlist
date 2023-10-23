@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E81043E7-7B75-4FD8-9A15-C10CADC93DB2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20DC8EE0-AC71-4D81-A087-601E9381F741"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Auth/Controllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "verifyOTPCode(otp:token:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "20DC8EE0-AC71-4D81-A087-601E9381F741 - 223ca0b04a6ef813"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.LoginViewController.verifyOTPCode(otp: Swift.String, token: Swift.String) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Auth/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "20DC8EE0-AC71-4D81-A087-601E9381F741 - 50e1533c26e86dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.ForgotPasswordModel&gt;) -&gt; () in TripSava.LoginViewController.verifyOTPCode(otp: Swift.String, token: Swift.String) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Auth/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDC91A11-8CB6-4741-B229-5AEFC592EE54"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/CataLog/Controlllers/PackingListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "printpackingListBtnAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9260881-6669-4CA8-A975-80006F8CB4F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Profile/Controllers/LoginAndAccountViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "deleteAccount()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9260881-6669-4CA8-A975-80006F8CB4F0 - 41b6ccc3831a29a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.BaseModel&gt;) -&gt; () in TripSava.LoginAndAccountViewController.deleteAccount() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Profile/Controllers/LoginAndAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "D9260881-6669-4CA8-A975-80006F8CB4F0 - 41b6ccc3831a29a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.BaseModel&gt;) -&gt; () in TripSava.LoginAndAccountViewController.deleteAccount() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Profile/Controllers/LoginAndAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "D9260881-6669-4CA8-A975-80006F8CB4F0 - a8a1be4ebb1e87e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.BaseModel&gt;) -&gt; () in TripSava.LoginAndAccountViewController.deleteAccount() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Profile/Controllers/LoginAndAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "560BA41A-E12E-49F1-B563-71B7226B2CCF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Profile/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7A6224E-BC36-496E-B43F-68F5D07F8491"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Profile/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46B5B797-D5EA-4BB6-AA94-9F7D46B69DB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Trip/Controllers/Trip/TripViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "showAddNewView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46B5B797-D5EA-4BB6-AA94-9F7D46B69DB1 - 6e7656cd40f913b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.TripViewController.setUpCollectionView() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Trip/Controllers/Trip/TripViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "46B5B797-D5EA-4BB6-AA94-9F7D46B69DB1 - 74051635eeea4c02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.TripViewController.showAddNewView() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Trip/Controllers/Trip/TripViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3AD33A8-8CEC-4C3F-B0C9-40E1677A225E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Network Layers/NetworkModels.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "Embassies"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C43D04FB-DCCB-4AB8-AE07-D8B3F3D8C80D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/CataLog/Controlllers/Category Details/FeaturedProductsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "getServices(primaryCategory:secondaryCategory:name:isFeatured:lastCall:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C43D04FB-DCCB-4AB8-AE07-D8B3F3D8C80D - 6a5d0cb7f1ecd746"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "C43D04FB-DCCB-4AB8-AE07-D8B3F3D8C80D - d1bc2f843c20b0de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.ServicesBaseModel&gt;) -&gt; () in TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "251"
+                  endingLineNumber = "251"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "C43D04FB-DCCB-4AB8-AE07-D8B3F3D8C80D - 6a5d0cb7f1ecd704"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "251"
+                  endingLineNumber = "251"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "C43D04FB-DCCB-4AB8-AE07-D8B3F3D8C80D - d1bc2f843c20b060"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.ServicesBaseModel&gt;) -&gt; () in TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "253"
+                  endingLineNumber = "253"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "C43D04FB-DCCB-4AB8-AE07-D8B3F3D8C80D - b4d64ceb3ab844db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "251"
+                  endingLineNumber = "251"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "C43D04FB-DCCB-4AB8-AE07-D8B3F3D8C80D - f376fd8f7742343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.ServicesBaseModel&gt;) -&gt; () in TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "253"
+                  endingLineNumber = "253"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16F2B214-1D79-47CD-8339-0B0E3C9BD283"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/CataLog/Controlllers/Category Details/FeaturedProductsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
+            landmarkName = "getServices(primaryCategory:secondaryCategory:name:isFeatured:lastCall:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "16F2B214-1D79-47CD-8339-0B0E3C9BD283 - d1bc2f843c20b307"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.ServicesBaseModel&gt;) -&gt; () in TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  uuid = "16F2B214-1D79-47CD-8339-0B0E3C9BD283 - d1bc2f843c20b349"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.ServicesBaseModel&gt;) -&gt; () in TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "262"
+                  endingLineNumber = "262"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  uuid = "16F2B214-1D79-47CD-8339-0B0E3C9BD283 - f376fd8f7742dac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.ServicesBaseModel&gt;) -&gt; () in TripSava.FeaturedProductsViewController.getServices(primaryCategory: Swift.String, secondaryCategory: Swift.String, name: Swift.String, isFeatured: Swift.Bool, lastCall: Swift.Bool) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/Category%20Details/FeaturedProductsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "262"
+                  endingLineNumber = "262"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95D0264F-34E9-4181-8806-C2A2FB07D4EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Library/Models/EmbassiesDetailsCustomView/EmbassiesDetailsCustomView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "labelTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95D0264F-34E9-4181-8806-C2A2FB07D4EF - f2a4ad86b75da092"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EmbassiesDetailsCustomView.labelTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Library/Models/EmbassiesDetailsCustomView/EmbassiesDetailsCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "95D0264F-34E9-4181-8806-C2A2FB07D4EF - f2a4ad86b75da092"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EmbassiesDetailsCustomView.labelTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Library/Models/EmbassiesDetailsCustomView/EmbassiesDetailsCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "1300">
+               </Location>
+               <Location
+                  uuid = "95D0264F-34E9-4181-8806-C2A2FB07D4EF - f2a4ad86b75da16e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EmbassiesDetailsCustomView.labelTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Library/Models/EmbassiesDetailsCustomView/EmbassiesDetailsCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+               <Location
+                  uuid = "95D0264F-34E9-4181-8806-C2A2FB07D4EF - f2a4ad86b75da16e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EmbassiesDetailsCustomView.labelTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Library/Models/EmbassiesDetailsCustomView/EmbassiesDetailsCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  uuid = "95D0264F-34E9-4181-8806-C2A2FB07D4EF - 91a01b40dcc33e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EmbassiesDetailsCustomView.labelTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Library/Models/EmbassiesDetailsCustomView/EmbassiesDetailsCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+               <Location
+                  uuid = "95D0264F-34E9-4181-8806-C2A2FB07D4EF - 91a01b40dcc33e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EmbassiesDetailsCustomView.labelTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Library/Models/EmbassiesDetailsCustomView/EmbassiesDetailsCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B337B87-F620-41EF-A58D-49C5025AFEB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Helping Files/Extension /Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "getAttributedString(message:msgColor:msgFont:boldTextList:boldTextColorsList:boldTextFontsList:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0B337B87-F620-41EF-A58D-49C5025AFEB3 - af0b627bd5843d4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.showCustomDeletMessageView(message: Swift.String, deleteBtnAction: () -&gt; ()) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Helping%20Files/Extension%20/Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "323"
+                  endingLineNumber = "323"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "0B337B87-F620-41EF-A58D-49C5025AFEB3 - 6783711781b8846a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.getAttributedString(message: Swift.String, msgColor: __C.UIColor, msgFont: __C.UIFont, boldTextList: Swift.Array&lt;Swift.String&gt;, boldTextColorsList: Swift.Array&lt;__C.UIColor&gt;, boldTextFontsList: Swift.Array&lt;__C.UIFont&gt;) -&gt; __C.NSMutableAttributedString"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Helping%20Files/Extension%20/Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "323"
+                  endingLineNumber = "323"
+                  offsetFromSymbolStart = "752">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "923E3F8F-9E66-4608-9BF2-6AA22D088DC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Helping Files/Extension /Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "325"
+            endingLineNumber = "325"
+            landmarkName = "getAttributedString(message:msgColor:msgFont:boldTextList:boldTextColorsList:boldTextFontsList:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3453AC01-BC6D-49AC-95B7-D75BCFCB1969"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Profile/Controllers/EditProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "handleSearchPlaceFromGoogle()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3453AC01-BC6D-49AC-95B7-D75BCFCB1969 - 49966b3a96af1bac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EditProfileViewController.handleSearchPlaceFromGoogle() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Profile/Controllers/EditProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "3453AC01-BC6D-49AC-95B7-D75BCFCB1969 - 49966b3a96af1bac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EditProfileViewController.handleSearchPlaceFromGoogle() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava/TripSava/Trip%20Sava/Modules/Profile/Controllers/EditProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "3453AC01-BC6D-49AC-95B7-D75BCFCB1969 - 53f1f05faa5aff5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EditProfileViewController.handleSearchPlaceFromGoogle() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Profile/Controllers/EditProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "3453AC01-BC6D-49AC-95B7-D75BCFCB1969 - 53f1f05faa5aff5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.EditProfileViewController.handleSearchPlaceFromGoogle() -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Profile/Controllers/EditProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C71145C8-2D24-4C88-98A3-1ACE372EE2C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Trip/Controllers/Trip Wizard/Step 3/WizardStep3ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "updateTrip(tripId:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EED6A285-8E3D-47E5-B639-1E3B4AC73FE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/Trip/Controllers/Trip Wizard/Step 3/WizardStep3ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "updateTrip(tripId:parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EED6A285-8E3D-47E5-B639-1E3B4AC73FE7 - 1f7b53c62355cb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.WizardStep3ViewController.updateTrip(tripId: Swift.String, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Trip/Controllers/Trip%20Wizard/Step%203/WizardStep3ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "275"
+                  endingLineNumber = "275"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "EED6A285-8E3D-47E5-B639-1E3B4AC73FE7 - 6bc3e935b7cb1637"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TripSava.APIResult&lt;TripSava.TripResponse&gt;) -&gt; () in TripSava.WizardStep3ViewController.updateTrip(tripId: Swift.String, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/Trip/Controllers/Trip%20Wizard/Step%203/WizardStep3ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0884215B-573F-4DCF-95CA-D89234BE477E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/CataLog/Models/ShopingListTableViewCell/ShopingListTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "dataForPackingAndPreprationList"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0884215B-573F-4DCF-95CA-D89234BE477E - eea916171d3f7aa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.ShopingListTableViewCell.dataForPackingAndPreprationList.didset : Swift.Optional&lt;TripSava.CategoriesWithItems&gt;"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Models/ShopingListTableViewCell/ShopingListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
+                  offsetFromSymbolStart = "7984">
+               </Location>
+               <Location
+                  uuid = "0884215B-573F-4DCF-95CA-D89234BE477E - eea916171d3f7aa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.ShopingListTableViewCell.dataForPackingAndPreprationList.didset : Swift.Optional&lt;TripSava.CategoriesWithItems&gt;"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Models/ShopingListTableViewCell/ShopingListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
+                  offsetFromSymbolStart = "8048">
+               </Location>
+               <Location
+                  uuid = "0884215B-573F-4DCF-95CA-D89234BE477E - eea916171d3f7aa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.ShopingListTableViewCell.dataForPackingAndPreprationList.didset : Swift.Optional&lt;TripSava.CategoriesWithItems&gt;"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Models/ShopingListTableViewCell/ShopingListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
+                  offsetFromSymbolStart = "8096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CF5611C-F7A3-4D19-8AB5-D14C5EF6E3AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/CataLog/Controlllers/packing List/PackingListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "541"
+            endingLineNumber = "541"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CF5611C-F7A3-4D19-8AB5-D14C5EF6E3AF - de3869ded1a406bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.PackingListVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/packing%20List/PackingListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "541"
+                  endingLineNumber = "541"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "3CF5611C-F7A3-4D19-8AB5-D14C5EF6E3AF - de3869ded1a406bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.PackingListVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/packing%20List/PackingListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "541"
+                  endingLineNumber = "541"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "3CF5611C-F7A3-4D19-8AB5-D14C5EF6E3AF - de3869ded1a406bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.PackingListVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/packing%20List/PackingListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "541"
+                  endingLineNumber = "541"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47DAB2D9-D920-4A99-98A5-7020D709BE70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TripSava/Trip Sava/Modules/CataLog/Controlllers/packing List/PackingListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "562"
+            endingLineNumber = "562"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "47DAB2D9-D920-4A99-98A5-7020D709BE70 - de3869ded1a401b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.PackingListVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/packing%20List/PackingListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "564"
+                  endingLineNumber = "564"
+                  offsetFromSymbolStart = "1184">
+               </Location>
+               <Location
+                  uuid = "47DAB2D9-D920-4A99-98A5-7020D709BE70 - de3869ded1a401b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.PackingListVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/packing%20List/PackingListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "564"
+                  endingLineNumber = "564"
+                  offsetFromSymbolStart = "776">
+               </Location>
+               <Location
+                  uuid = "47DAB2D9-D920-4A99-98A5-7020D709BE70 - de3869ded1a401b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.PackingListVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/packing%20List/PackingListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "564"
+                  endingLineNumber = "564"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "47DAB2D9-D920-4A99-98A5-7020D709BE70 - de3869ded1a401ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TripSava.PackingListVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "TripSava"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hf/Documents/Ahmad/Chrip/Project/TripSava-6/TripSava/Trip%20Sava/Modules/CataLog/Controlllers/packing%20List/PackingListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "562"
+                  endingLineNumber = "562"
+                  offsetFromSymbolStart = "904">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

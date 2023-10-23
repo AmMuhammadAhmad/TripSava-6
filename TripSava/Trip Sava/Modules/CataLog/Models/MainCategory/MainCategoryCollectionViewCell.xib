@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DMSans-Regular.ttf">
+            <string>DMSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainCategoryCollectionViewCell" id="gTV-IL-0wX" customClass="MainCategoryCollectionViewCell" customModule="TripSava" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="66" height="107"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="66" height="107"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="qup-pS-app">
+                        <rect key="frame" x="0.0" y="0.0" width="66" height="107"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hom-hf-JGm">
+                                <rect key="frame" x="0.0" y="0.0" width="66" height="107"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OEE-C1-3VJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="66" height="75.666666666666671"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="TravelBags" translatesAutoresizingMaskIntoConstraints="NO" id="81B-nJ-uxZ">
+                                                <rect key="frame" x="0.0" y="5" width="66" height="66"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="66" id="f3t-ed-IGR"/>
+                                                    <constraint firstAttribute="width" constant="66" id="xEe-Iu-sKA"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="81B-nJ-uxZ" firstAttribute="centerX" secondItem="OEE-C1-3VJ" secondAttribute="centerX" id="a71-Q0-Vda"/>
+                                            <constraint firstItem="81B-nJ-uxZ" firstAttribute="centerY" secondItem="OEE-C1-3VJ" secondAttribute="centerY" id="hv2-50-h5D"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toiletries &amp; Beauty" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8c-JF-HJF">
+                                        <rect key="frame" x="0.0" y="75.666666666666671" width="66" height="31.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31.329999999999998" id="gA6-uP-cXZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DMSans-Regular" family="DM Sans" pointSize="12"/>
+                                        <color key="textColor" red="0.27843137254901962" green="0.28235294117647058" blue="0.27843137254901962" alpha="0.96264486754966883" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="hom-hf-JGm" secondAttribute="bottom" id="T33-Nn-b2D"/>
+                            <constraint firstAttribute="trailing" secondItem="hom-hf-JGm" secondAttribute="trailing" id="abq-3l-Vz1"/>
+                            <constraint firstItem="hom-hf-JGm" firstAttribute="top" secondItem="qup-pS-app" secondAttribute="top" id="o15-0X-QHv"/>
+                            <constraint firstItem="hom-hf-JGm" firstAttribute="leading" secondItem="qup-pS-app" secondAttribute="leading" id="vZC-JC-ysS"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qup-pS-app" secondAttribute="trailing" id="6kr-2C-tQL"/>
+                <constraint firstItem="qup-pS-app" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="SIN-Xi-tth"/>
+                <constraint firstItem="qup-pS-app" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bln-4h-ZTp"/>
+                <constraint firstAttribute="bottom" secondItem="qup-pS-app" secondAttribute="bottom" id="txc-RH-UR5"/>
+            </constraints>
+            <size key="customSize" width="171" height="166"/>
+            <connections>
+                <outlet property="categoryImageView" destination="81B-nJ-uxZ" id="qNt-OM-bqI"/>
+                <outlet property="categoryNameLabel" destination="c8c-JF-HJF" id="Z6g-Bg-UQU"/>
+            </connections>
+            <point key="canvasLocation" x="212.21374045801525" y="59.507042253521128"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="TravelBags" width="66" height="66"/>
+    </resources>
+</document>

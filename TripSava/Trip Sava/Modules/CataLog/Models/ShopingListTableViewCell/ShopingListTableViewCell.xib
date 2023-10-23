@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DMSans-Bold.ttf">
+            <string>DMSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShopingListTableViewCell" id="KGk-i7-Jjw" customClass="ShopingListTableViewCell" customModule="TripSava" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="226"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="226"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1l-J7-C68">
+                        <rect key="frame" x="20" y="8" width="327" height="206"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="AjU-fh-PzG">
+                                <rect key="frame" x="16" y="16" width="257" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YbV-TL-Xce">
+                                        <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="jRa-KC-VtJ"/>
+                                            <constraint firstAttribute="width" constant="22" id="mtl-3g-dY7"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="0.2020215840403525" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="DropDownList" title=""/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Documents" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srN-hL-7qh">
+                                        <rect key="frame" x="34" y="0.0" width="223" height="22"/>
+                                        <fontDescription key="fontDescription" name="DMSans-Bold" family="DM Sans" pointSize="16"/>
+                                        <color key="textColor" red="0.015686274509803921" green="0.015686274509803921" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oNA-Ej-KL1">
+                                <rect key="frame" x="16" y="58" width="295" height="68"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4lH-Je-bFi">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="68"/>
+                                    </stackView>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6x3-di-ufA">
+                                        <rect key="frame" x="0.0" y="68" width="295" height="180"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When you choose items you might want to buy, they will appear here." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXw-po-AZg">
+                                                <rect key="frame" x="10" y="40" width="275" height="36.666666666666657"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="275" id="Rt4-4Y-WjB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="DMSans-Bold" family="DM Sans" pointSize="14"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.40366307950000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoppingEmptyList" translatesAutoresizingMaskIntoConstraints="NO" id="uLk-SW-tft">
+                                                <rect key="frame" x="113.66666666666666" y="100.66666666666666" width="68" height="68"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="68" id="2Rm-qo-ftF"/>
+                                                    <constraint firstAttribute="height" constant="68" id="BZJ-1z-5jM"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="uLk-SW-tft" firstAttribute="top" secondItem="hXw-po-AZg" secondAttribute="bottom" constant="24" id="JUV-2U-IWV"/>
+                                            <constraint firstItem="hXw-po-AZg" firstAttribute="centerX" secondItem="6x3-di-ufA" secondAttribute="centerX" id="Kx0-7d-gtE"/>
+                                            <constraint firstItem="uLk-SW-tft" firstAttribute="centerX" secondItem="hXw-po-AZg" secondAttribute="centerX" id="PSK-D1-SFr"/>
+                                            <constraint firstItem="hXw-po-AZg" firstAttribute="top" secondItem="6x3-di-ufA" secondAttribute="top" constant="40" id="QaQ-J3-Mkh"/>
+                                            <constraint firstAttribute="height" constant="180" id="WJF-K4-HwV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VP8-nN-ncn">
+                                <rect key="frame" x="16" y="142" width="295" height="44"/>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.2156862745" blue="0.50588235290000005" alpha="0.078082962539999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="qF7-Jq-qpH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DMSans-Bold" family="DM Sans" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Add items">
+                                    <color key="titleColor" red="0.0" green="0.21176470588235294" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addItemBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="JTX-mG-gTi"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JaV-uR-2Lq">
+                                <rect key="frame" x="0.0" y="0.0" width="327" height="206"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4R-02-WDH">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="206"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title=""/>
+                                        <connections>
+                                            <action selector="hideDropDownBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NqK-cM-3Em"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pS7-Qj-bqU">
+                                        <rect key="frame" x="149" y="40" width="163" height="48.333333333333343"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="dQg-fm-Fvg">
+                                                <rect key="frame" x="8" y="8" width="147" height="32.333333333333336"/>
+                                                <subviews>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKO-1V-GsW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="0.0"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="checkAll" title="Check all" imagePadding="10">
+                                                            <fontDescription key="titleFontDescription" name="DMSans-Regular" family="DM Sans" pointSize="14"/>
+                                                            <color key="baseForegroundColor" red="0.27843137254901962" green="0.28235294117647058" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="checkAllBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="x7L-1L-A4i"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFb-sO-Ufu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="0.0"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="SellAllEye" title="See All" imagePadding="10">
+                                                            <fontDescription key="titleFontDescription" name="DMSans-Regular" family="DM Sans" pointSize="14"/>
+                                                            <color key="baseForegroundColor" red="0.2784313725" green="0.28235294119999998" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="seeAllBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="0fL-5o-bhA"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NM2-2U-shB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="0.0"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="basketCatalog" title="To Buy" imagePadding="10">
+                                                            <fontDescription key="titleFontDescription" name="DMSans-Regular" family="DM Sans" pointSize="14"/>
+                                                            <color key="baseForegroundColor" red="0.2784313725" green="0.28235294119999998" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="toBuyBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="EZx-5O-OjR"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkA-PY-Pc1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="32.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="Delete" title="Delete" imagePadding="10">
+                                                            <fontDescription key="titleFontDescription" name="DMSans-Regular" family="DM Sans" pointSize="14"/>
+                                                            <color key="baseForegroundColor" red="0.92156862745098034" green="0.3411764705882353" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="deleteBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ekh-XW-C9d"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="163" id="5eh-dn-hFJ"/>
+                                            <constraint firstItem="dQg-fm-Fvg" firstAttribute="top" secondItem="pS7-Qj-bqU" secondAttribute="top" constant="8" id="cdO-d6-4ZA"/>
+                                            <constraint firstItem="dQg-fm-Fvg" firstAttribute="leading" secondItem="pS7-Qj-bqU" secondAttribute="leading" constant="8" id="eiC-P9-7ky"/>
+                                            <constraint firstAttribute="bottom" secondItem="dQg-fm-Fvg" secondAttribute="bottom" constant="8" id="lC0-cX-GEB"/>
+                                            <constraint firstAttribute="trailing" secondItem="dQg-fm-Fvg" secondAttribute="trailing" constant="8" id="reh-wL-ZQh"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="13"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="8" height="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.40000000000000002"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.30298013245033112" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.69999999999999996"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="pS7-Qj-bqU" firstAttribute="top" secondItem="JaV-uR-2Lq" secondAttribute="top" constant="40" id="61V-cT-4lo"/>
+                                    <constraint firstItem="z4R-02-WDH" firstAttribute="top" secondItem="JaV-uR-2Lq" secondAttribute="top" id="8Cd-Qs-xnG"/>
+                                    <constraint firstAttribute="trailing" secondItem="pS7-Qj-bqU" secondAttribute="trailing" constant="15" id="bjU-pF-H8x"/>
+                                    <constraint firstItem="z4R-02-WDH" firstAttribute="leading" secondItem="JaV-uR-2Lq" secondAttribute="leading" id="ecd-C6-WfG"/>
+                                    <constraint firstAttribute="bottom" secondItem="z4R-02-WDH" secondAttribute="bottom" id="m3f-q9-Hgb"/>
+                                    <constraint firstAttribute="trailing" secondItem="z4R-02-WDH" secondAttribute="trailing" id="vAw-mO-dAG"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tU5-RN-Ihg">
+                                <rect key="frame" x="285" y="16" width="26" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="26" id="Gq7-aT-4Mb"/>
+                                    <constraint firstAttribute="height" constant="26" id="XmR-s9-XGJ"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="smallBtnImg"/>
+                                <state key="selected" image="xmark.circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="showDropDownBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="p5E-vv-1EH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JaV-uR-2Lq" secondAttribute="trailing" id="4x2-q0-xqd"/>
+                            <constraint firstAttribute="bottom" secondItem="JaV-uR-2Lq" secondAttribute="bottom" id="69m-J2-Cae"/>
+                            <constraint firstAttribute="trailing" secondItem="tU5-RN-Ihg" secondAttribute="trailing" constant="16" id="L8a-DS-9ea"/>
+                            <constraint firstAttribute="trailing" secondItem="oNA-Ej-KL1" secondAttribute="trailing" constant="16" id="MIn-UA-TFp"/>
+                            <constraint firstItem="VP8-nN-ncn" firstAttribute="leading" secondItem="4lH-Je-bFi" secondAttribute="leading" id="OBA-rW-3tG"/>
+                            <constraint firstItem="VP8-nN-ncn" firstAttribute="trailing" secondItem="4lH-Je-bFi" secondAttribute="trailing" id="QQ6-t1-jN7"/>
+                            <constraint firstItem="AjU-fh-PzG" firstAttribute="leading" secondItem="i1l-J7-C68" secondAttribute="leading" constant="16" id="YOQ-oH-Grj"/>
+                            <constraint firstItem="oNA-Ej-KL1" firstAttribute="top" secondItem="tU5-RN-Ihg" secondAttribute="bottom" constant="16" id="aWR-kt-xHc"/>
+                            <constraint firstItem="JaV-uR-2Lq" firstAttribute="leading" secondItem="i1l-J7-C68" secondAttribute="leading" id="cGH-FB-Mcp"/>
+                            <constraint firstItem="tU5-RN-Ihg" firstAttribute="top" secondItem="AjU-fh-PzG" secondAttribute="top" id="cfM-2c-XTL"/>
+                            <constraint firstItem="AjU-fh-PzG" firstAttribute="top" secondItem="i1l-J7-C68" secondAttribute="top" constant="16" id="dqn-M1-pHz"/>
+                            <constraint firstItem="oNA-Ej-KL1" firstAttribute="leading" secondItem="i1l-J7-C68" secondAttribute="leading" constant="16" id="iuM-Wf-y2O"/>
+                            <constraint firstAttribute="bottom" secondItem="VP8-nN-ncn" secondAttribute="bottom" constant="20" id="jtX-qy-ejX"/>
+                            <constraint firstItem="tU5-RN-Ihg" firstAttribute="leading" secondItem="AjU-fh-PzG" secondAttribute="trailing" constant="12" id="sjY-mQ-luU"/>
+                            <constraint firstItem="JaV-uR-2Lq" firstAttribute="top" secondItem="i1l-J7-C68" secondAttribute="top" id="uxQ-WM-x45"/>
+                            <constraint firstItem="VP8-nN-ncn" firstAttribute="top" secondItem="oNA-Ej-KL1" secondAttribute="bottom" constant="16" id="w4V-58-Ydb"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.029999999999999999"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="i1l-J7-C68" secondAttribute="bottom" constant="12" id="3Ll-e2-BJi"/>
+                    <constraint firstItem="i1l-J7-C68" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="A1E-xc-YSc"/>
+                    <constraint firstAttribute="trailing" secondItem="i1l-J7-C68" secondAttribute="trailing" constant="20" id="Gui-xu-Uoj"/>
+                    <constraint firstItem="i1l-J7-C68" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Ye9-y1-qo2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <connections>
+                <outlet property="addBtnHeightAnchor" destination="qF7-Jq-qpH" id="aWZ-bk-0Id"/>
+                <outlet property="addItemButton" destination="VP8-nN-ncn" id="NTK-un-Iwm"/>
+                <outlet property="checkAllBtn" destination="PKO-1V-GsW" id="isd-Fj-Sus"/>
+                <outlet property="deleteBtn" destination="SkA-PY-Pc1" id="Ehh-QP-rG5"/>
+                <outlet property="dropBownBtn" destination="YbV-TL-Xce" id="Ktc-Wb-e5V"/>
+                <outlet property="dropDownView" destination="JaV-uR-2Lq" id="xJC-jq-Sde"/>
+                <outlet property="emptyView" destination="6x3-di-ufA" id="mlH-Se-F4D"/>
+                <outlet property="seeAllBtn" destination="AFb-sO-Ufu" id="C2x-DD-eQz"/>
+                <outlet property="shopingListCellView" destination="i1l-J7-C68" id="rvb-ny-18c"/>
+                <outlet property="shopingListCityLbl" destination="srN-hL-7qh" id="0i0-SU-ApI"/>
+                <outlet property="shopingListItemStack" destination="4lH-Je-bFi" id="gqN-lh-2N9"/>
+                <outlet property="toBuyBtn" destination="NM2-2U-shB" id="wRA-Pw-vZI"/>
+                <outlet property="toggleBtn" destination="tU5-RN-Ihg" id="BYa-VS-fT4"/>
+            </connections>
+            <point key="canvasLocation" x="214.50381679389312" y="21.126760563380284"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Delete" width="14" height="14"/>
+        <image name="DropDownList" width="19" height="19"/>
+        <image name="SellAllEye" width="14" height="14"/>
+        <image name="basketCatalog" width="14" height="14"/>
+        <image name="checkAll" width="14" height="14"/>
+        <image name="shoppingEmptyList" width="68" height="68"/>
+        <image name="smallBtnImg" width="24" height="24"/>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
